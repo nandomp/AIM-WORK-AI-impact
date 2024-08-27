@@ -1,5 +1,4 @@
-# AIM-WORK project: Analysis on Impacts of Algorithmic Management and Artificial Intelligence in
-the Workplace
+# AIM-WORK project: Analysis on Impacts of Algorithmic Management and Artificial Intelligence in the Workplace
 ## AI impact chapter
  
 The AIM-WORK project explores the transformative impact of Artificial Intelligence (AI) and Machine Learning (ML) innovations on workplace activities and the wider professional environment. As part of this initiative, we have compiled a detailed catalogue of AI benchmarks that are essential for measuring and comparing the capabilities of different AI models. This dataset, derived from the Papers-with-Code platform, categorises benchmarks by data modality (e.g. text, image, audio, video) and includes key metrics that reflect research activity and interest.
