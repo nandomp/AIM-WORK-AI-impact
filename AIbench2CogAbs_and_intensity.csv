@@ -1,0 +1,785 @@
+type,benchmarks,MP,SI,VP,AP,AS,PA,CE,CO,EC,NV,CL,QL,MS,MC,TaskHierarchies,keyword,2008.docs,2009.docs,2010.docs,2011.docs,2012.docs,2013.docs,2014.docs,2015.docs,2016.docs,2017.docs,2018.docs,2019.docs,2020.docs,2021.docs,2022.docs,2023.docs,2024.docs,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024
+Dataset,CUB-200-2011,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Classification > Fine-Grained Image Classification 
+Computer Vision > Object Localization > Weakly-Supervised Object Localization 
+",CUB-200-2011,0,0,0,0,0,0,0,3,7,9,24,37,39,46,61,127,282,0,0,0,0,0,0,0,0.131406045,0.197461213,0.130020225,0.140383715,0.177602842,0.153283811,0.186151916,0.170386302,0.154484302,0.211826212
+Dataset,FB15k,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Graphs > Link Prediction >  
+",FB15k,0,0,0,0,0,1,2,2,9,16,51,80,83,73,91,159,272,0,0,0,0,0,0.166944908,0.168491997,0.08760403,0.253878702,0.231147067,0.298315395,0.384006144,0.326219392,0.295414997,0.254182844,0.193409481,0.204314645
+Dataset,Pascal3D+,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Pose Estimation > Keypoint Detection 
+",Pascal3D+,0,0,0,0,0,0,0,0,1,2,8,2,6,6,7,14,40,0,0,0,0,0,0,0,0,0.028208745,0.028893383,0.046794572,0.009600154,0.023582125,0.024280685,0.019552526,0.017029766,0.030046271
+Dataset,Static Facial Expressions in the Wild,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Facial Expression Recognition >  
+Computer Vision > Facial Recognition and Modelling > Facial Expression Recognition 
+",Static Facial Expressions in the Wild,0,0,0,0,0,0,0,0,0,0,0,3,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0.01440023,0.003930354,0.004046781,0,0,0.000751157
+Dataset,20NEWS,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Text Classification > Document Classification 
+Natural Language Processing > Text Classification >  
+",20NEWS,3,4,3,5,3,10,16,15,20,21,44,51,34,40,50,130,185,1.948051948,1.058201058,0.906344411,0.878734622,0.368550369,1.669449082,1.347935973,0.657030223,0.564174894,0.303380526,0.257370145,0.244803917,0.13363204,0.161871231,0.139660903,0.158133538,0.138964005
+Dataset,300W,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Facial Recognition and Modelling > Facial Landmark Detection 
+Computer Vision > Facial Recognition and Modelling > Face Alignment 
+",300W,3,0,0,0,0,0,1,0,3,13,19,10,9,27,23,64,99,1.948051948,0,0,0,0,0,0.084245998,0,0.084626234,0.187806992,0.111137108,0.048000768,0.035373187,0.109263081,0.064244016,0.077850357,0.074364521
+Dataset,ACE 2004,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Nested Mention Recognition >  
+Natural Language Processing > Named Entity Recognition > Nested Named Entity Recognition 
+",ACE 2004,0,0,0,0,0,0,0,0,0,0,2,2,3,5,10,25,24,0,0,0,0,0,0,0,0,0,0,0.011698643,0.009600154,0.011791062,0.020233904,0.027932181,0.030410296,0.018027763
+Dataset,ACE 2005,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Nested Mention Recognition >  
+",ACE 2005,0,1,0,1,0,0,1,1,2,1,8,9,10,21,43,109,91,0,0.264550265,0,0.175746924,0,0,0.084245998,0.043802015,0.056417489,0.014446692,0.046794572,0.043200691,0.039303541,0.084982397,0.120108377,0.132588889,0.068355267
+Dataset,ADE20K,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Semantic Segmentation >  
+",ADE20K,0,0,0,0,0,0,0,0,0,4,22,18,16,47,99,226,460,0,0,0,0,0,0,0,0,0,0.057786767,0.128685073,0.086401382,0.062885666,0.190198697,0.276528589,0.274909073,0.345532119
+Dataset,Aerial-to-Map,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Generation > Image-to-Image Translation 
+Computer Vision > Image-to-Image Translation >  
+",Aerial-to-Map,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0,0,0
+Dataset,AFAD,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Facial Recognition and Modelling > Age Estimation 
+",AFAD,0,0,0,0,0,0,0,0,0,0,0,4,1,8,1,9,23,0,0,0,0,0,0,0,0,0,0,0,0.019200307,0.003930354,0.032374246,0.002793218,0.010947706,0.017276606
+Dataset,AFLW,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Facial Recognition and Modelling > Facial Landmark Detection 
+",AFLW,0,0,0,0,0,0,0,0,2,6,5,4,8,6,7,3,19,0,0,0,0,0,0,0,0,0.056417489,0.08668015,0.029246607,0.019200307,0.031442833,0.024280685,0.019552526,0.003649235,0.014271979
+Dataset,AG News,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Text Classification >  
+",AG News,0,0,0,0,0,0,0,1,0,7,18,22,38,44,112,283,375,0,0,0,0,0,0,0,0.043802015,0,0.101126842,0.105287787,0.10560169,0.149353457,0.178058355,0.312840423,0.344244547,0.281683793
+Dataset,AI2 Kaggle Dataset,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering >  
+",AI2 Kaggle Dataset,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0,0,0
+Dataset,Amazon Review,0,0,0,0,0,0,1,0,1,0,0,0,0,0,"Natural Language Processing > Sentiment Analysis >  
+",Amazon Review,0,0,1,0,1,1,0,5,5,13,33,32,34,45,48,152,220,0,0,0.302114804,0,0.122850123,0.166944908,0,0.219010074,0.141043724,0.187806992,0.193027609,0.153602458,0.13363204,0.182105135,0.134074467,0.184894598,0.165254492
+Dataset,Annotated Faces in the Wild,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Face Detection >  
+Computer Vision > Facial Recognition and Modelling > Face Detection 
+",Annotated Faces in the Wild,0,0,0,0,0,0,0,0,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0.028208745,0.014446692,0,0.009600154,0,0.008093562,0,0,0
+Dataset,Arcade Learning Environment,1,1,1,0,1,1,0,0,0,1,0,0,0,0,"Playing Games > Atari Games >  
+Playing Games > Video Games > Atari Games 
+",Arcade Learning Environment,0,0,0,0,0,0,2,6,8,16,70,82,85,91,63,162,247,0,0,0,0,0,0,0.168491997,0.262812089,0.225669958,0.231147067,0.409452504,0.393606298,0.334080101,0.368257052,0.175972738,0.197058716,0.185535725
+Dataset,bAbi,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering >  
+",bAbi,0,0,0,0,0,0,0,0,0,3,4,2,7,5,5,20,19,0,0,0,0,0,0,0,0,0,0.043340075,0.023397286,0.009600154,0.027512479,0.020233904,0.01396609,0.024328237,0.014271979
+Dataset,Bing News,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Miscellaneous > Click-Through Rate Prediction >  
+",Bing News,0,0,0,0,0,0,0,2,1,0,3,2,3,2,3,4,5,0,0,0,0,0,0,0,0.08760403,0.028208745,0,0.017547964,0.009600154,0.011791062,0.008093562,0.008379654,0.004865647,0.003755784
+Dataset,BIWI,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Pose Estimation > Head Pose Estimation 
+",BIWI,0,0,0,0,1,0,0,0,0,0,1,4,4,7,7,14,20,0,0,0,0,0.122850123,0,0,0,0,0,0.005849321,0.019200307,0.015721416,0.028327466,0.019552526,0.017029766,0.015023136
+Dataset,BlogCatalog,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Graphs > Node Classification >  
+",BlogCatalog,0,0,0,0,0,0,0,0,2,9,28,26,27,18,21,40,61,0,0,0,0,0,0,0,0,0.056417489,0.130020225,0.163781001,0.124801997,0.106119561,0.072842054,0.058657579,0.048656473,0.045820564
+Dataset,Bosch Small Traffic Lights,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Autonomous Vehicles > Traffic Sign Recognition 
+",Bosch Small Traffic Lights,0,0,0,0,0,0,0,0,0,0,1,0,0,3,0,1,2,0,0,0,0,0,0,0,0,0,0,0.005849321,0,0,0.012140342,0,0.001216412,0.001502314
+Dataset,BP4D,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Facial Recognition and Modelling > Facial Action Unit Detection 
+",BP4D,0,0,0,0,0,0,0,0,2,0,5,5,1,5,8,9,19,0,0,0,0,0,0,0,0,0.056417489,0,0.029246607,0.024000384,0.003930354,0.020233904,0.022345745,0.010947706,0.014271979
+Dataset,BPI challenge,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Time Series > Time Series Forecasting > Multivariate Time Series Forecasting 
+",BPI challenge,0,0,0,0,0,0,0,0,0,3,4,4,12,22,6,20,13,0,0,0,0,0,0,0,0,0,0.043340075,0.023397286,0.019200307,0.047164249,0.089029177,0.016759308,0.024328237,0.009765038
+Dataset,BRATS,0,0,1,0,1,0,0,0,0,0,1,0,0,0,"Medical > Medical Image Segmentation > Brain Tumor Segmentation 
+",BRATS,0,0,0,0,0,0,0,0,2,3,21,30,29,36,82,166,248,0,0,0,0,0,0,0,0,0.056417489,0.043340075,0.122835751,0.144002304,0.11398027,0.145684108,0.229043881,0.201924364,0.186286882
+Dataset,BSD*,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Denoising > Image Denoising 
+Computer Vision > Image Denoising >  
+",BSD*,0,2,3,3,0,2,1,5,17,26,46,52,62,106,157,337,687,0,0.529100529,0.906344411,0.527240773,0,0.333889816,0.084245998,0.219010074,0.47954866,0.375613984,0.269068788,0.249603994,0.243681956,0.428958763,0.438535236,0.409930786,0.516044709
+Dataset,BUCC,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Cross-Lingual Bitext Mining >  
+",BUCC,0,0,0,0,0,0,0,0,1,1,1,4,2,5,13,26,38,0,0,0,0,0,0,0,0,0.028208745,0.014446692,0.005849321,0.019200307,0.007860708,0.020233904,0.036311835,0.031626708,0.028543958
+Dataset,BUS 2017,0,0,1,0,1,0,0,0,0,0,1,0,0,0,"Medical > Medical Image Segmentation > Lesion Segmentation 
+",BUS 2017,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.008093562,0.005586436,0,0
+Dataset,CACD,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Face Recognition > Age-Invariant Face Recognition 
+Computer Vision > Facial Recognition and Modelling > Age-Invariant Face Recognition 
+Computer Vision > Facial Recognition and Modelling > Age Estimation 
+Computer Vision > Facial Recognition and Modelling > Face Recognition > Age-Invariant Face Recognition 
+",CACD,0,0,0,0,0,0,0,0,1,0,2,1,2,15,2,13,22,0,0,0,0,0,0,0,0,0.028208745,0,0.011698643,0.004800077,0.007860708,0.060701712,0.005586436,0.015813354,0.016525449
+Dataset,CACDVS,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Face Recognition > Age-Invariant Face Recognition 
+Computer Vision > Facial Recognition and Modelling > Age-Invariant Face Recognition 
+Computer Vision > Facial Recognition and Modelling > Face Recognition > Age-Invariant Face Recognition 
+",CACDVS,0,0,0,0,0,0,0,0,1,0,0,0,0,3,0,0,1,0,0,0,0,0,0,0,0,0.028208745,0,0,0,0,0.012140342,0,0,0.000751157
+Dataset,CAFR,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Face Recognition > Age-Invariant Face Recognition 
+Computer Vision > Facial Recognition and Modelling > Age-Invariant Face Recognition 
+Computer Vision > Facial Recognition and Modelling > Face Recognition > Age-Invariant Face Recognition 
+",CAFR,0,0,0,0,0,0,0,1,0,0,0,0,0,2,1,0,3,0,0,0,0,0,0,0,0.043802015,0,0,0,0,0,0.008093562,0.002793218,0,0.00225347
+Dataset,Caltech,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Classification > Fine-Grained Image Classification 
+Computer Vision > Autonomous Vehicles > Lane Detection 
+Computer Vision > Autonomous Vehicles > Pedestrian Detection 
+",Caltech,10,66,17,19,36,10,49,56,77,118,212,265,331,297,418,969,1748,6.493506494,17.46031746,5.135951662,3.339191564,4.422604423,1.669449082,4.128053917,2.452912834,2.172073343,1.704709621,1.240056153,1.272020352,1.300947215,1.201893893,1.167565152,1.178703062,1.313022054
+Dataset,CamVid,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Semantic Segmentation > Real-Time Semantic Segmentation 
+Computer Vision > Semantic Segmentation >  
+",CamVid,0,0,0,0,0,0,1,0,2,10,11,15,15,20,15,29,36,0,0,0,0,0,0,0.084245998,0,0.056417489,0.144466917,0.064342536,0.072001152,0.058955312,0.080935616,0.041898271,0.035275943,0.027041644
+Dataset,Cats and Dogs,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Generation > Image-to-Image Translation > Multimodal Unsupervised Image-To-Image Translation 
+Computer Vision > Image-to-Image Translation > Multimodal Unsupervised Image-To-Image Translation 
+",Cats and Dogs,0,0,0,0,1,0,3,4,17,46,74,101,131,131,172,376,617,0,0,0,0,0.122850123,0,0.252737995,0.17520806,0.47954866,0.664547819,0.432849789,0.484807757,0.51487639,0.530128283,0.480433507,0.457370847,0.463463734
+Dataset,CCGBank,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Natural Language Processing > CCG Supertagging >  
+",CCGBank,0,0,0,0,0,0,0,0,0,1,3,2,2,3,2,5,3,0,0,0,0,0,0,0,0,0,0.014446692,0.017547964,0.009600154,0.007860708,0.012140342,0.005586436,0.006082059,0.00225347
+Dataset,CelebA,1,0,1,0,1,0,0,0,0,0,0,1,0,0,"Methodology > Transfer Learning > Multi-Task Learning 
+Computer Vision > Image Generation >  
+",CelebA,0,0,0,0,0,0,0,0,14,111,282,263,306,264,302,786,1440,0,0,0,0,0,0,0,0,0.394922426,1.60358278,1.649508657,1.262420199,1.202688362,1.068350127,0.843551856,0.956099697,1.081665765
+Dataset,ChaLearn,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Facial Recognition and Modelling > Age Estimation 
+",ChaLearn,0,0,0,0,0,1,2,4,7,7,23,16,14,12,18,18,27,0,0,0,0,0,0.166944908,0.168491997,0.17520806,0.197461213,0.101126842,0.134534394,0.076801229,0.055024958,0.048561369,0.050277925,0.021895413,0.020281233
+Dataset,CHALL,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Pose Estimation > 3D Human Pose Estimation 
+",CHALL,0,0,1,0,0,0,0,0,0,2,5,21,10,10,17,43,74,0,0,0.302114804,0,0,0,0,0,0,0.028893383,0.029246607,0.100801613,0.039303541,0.040467808,0.047484707,0.052305709,0.055585602
+Dataset,Children's Book Test,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering >  
+",Children's Book Test,0,0,0,0,0,0,0,0,3,3,7,9,3,6,9,11,10,0,0,0,0,0,0,0,0,0.084626234,0.043340075,0.04094525,0.043200691,0.011791062,0.024280685,0.025138963,0.01338053,0.007511568
+Dataset,CHiME,0,0,0,1,1,0,0,0,0,0,0,0,0,0,"Speech > Speech Recognition > Distant Speech Recognition 
+",CHiME,0,0,0,0,0,0,0,1,1,3,18,22,13,9,38,59,63,0,0,0,0,0,0,0,0.043802015,0.028208745,0.043340075,0.105287787,0.10560169,0.051094604,0.036421027,0.106142287,0.071768298,0.047322877
+Dataset,Chinese Poems,0,0,0,0,0,0,1,1,0,0,0,0,0,0,"Natural Language Processing > Text Generation >  
+",Chinese Poems,0,0,0,0,0,0,0,0,0,5,5,3,5,10,5,16,17,0,0,0,0,0,0,0,0,0,0.072233459,0.029246607,0.01440023,0.019651771,0.040467808,0.01396609,0.019462589,0.012769665
+Dataset,CIFAR,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Classification >  
+Computer Vision > Image Generation > Conditional Image Generation 
+Computer Vision > Image Generation >  
+",CIFAR,0,3,6,13,23,17,47,86,193,503,1440,1775,2334,1711,2325,5346,9473,0,0.793650794,1.812688822,2.284710018,2.825552826,2.838063439,3.959561921,3.766973281,5.444287729,7.266685929,8.423022929,8.520136322,9.173446528,6.924041925,6.494232005,6.502937635,7.115708191
+Dataset,CIHP,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Human Part Segmentation >  
+",CIHP,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0.008093562,0.002793218,0.001216412,0.001502314
+Dataset,Citeseer,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Graphs > Node Classification >  
+Graphs > Link Prediction >  
+",Citeseer,3,9,12,22,32,24,36,77,133,215,528,1030,1068,961,1165,2210,3033,1.948051948,2.380952381,3.625377644,3.866432337,3.931203931,4.006677796,3.032855939,3.372755147,3.751763047,3.106038717,3.088441741,4.944079105,4.197618205,3.888956335,3.254099048,2.688270141,2.278258518
+Dataset,Cityscapes,1,0,1,0,1,0,0,0,0,0,0,1,0,0,"Methodology > Transfer Learning > Multi-Task Learning 
+Computer Vision > Semantic Segmentation > Real-Time Semantic Segmentation 
+Computer Vision > Semantic Segmentation >  
+Computer Vision > Edge Detection >  
+Computer Vision > Image Generation > Image-to-Image Translation > Synthetic-to-Real Translation 
+Computer Vision > Image Generation > Image-to-Image Translation 
+Computer Vision > Image-to-Image Translation > Synthetic-to-Real Translation 
+Computer Vision > Image-to-Image Translation >  
+",Cityscapes,0,0,0,0,0,0,0,0,1,32,90,94,95,161,214,455,729,0,0,0,0,0,0,0,0,0.028208745,0.462294135,0.526438933,0.451207219,0.373383642,0.651531707,0.597748666,0.553467382,0.547593294
+Dataset,Click-Through Rate Prediction,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Miscellaneous > Click-Through Rate Prediction >  
+",Click-Through Rate Prediction,0,0,0,0,0,2,6,2,6,12,26,37,70,69,91,211,260,0,0,0,0,0,0.333889816,0.50547599,0.08760403,0.169252468,0.1733603,0.152082358,0.177602842,0.275124789,0.279227874,0.254182844,0.256662896,0.195300763
+Dataset,CliCR,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering >  
+",CliCR,0,0,0,0,0,0,0,0,0,0,1,1,5,6,3,5,11,0,0,0,0,0,0,0,0,0,0,0.005849321,0.004800077,0.019651771,0.024280685,0.008379654,0.006082059,0.008262725
+Dataset,CMU-SE,0,0,0,0,0,0,1,1,0,0,0,0,0,0,"Natural Language Processing > Text Generation >  
+",CMU-SE,0,0,0,0,0,0,0,0,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0.014446692,0.005849321,0.004800077,0,0.004046781,0.002793218,0,0
+Dataset,CNN / Daily Mail,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Text Summarization > Document Summarization 
+Natural Language Processing > Question Answering >  
+",CNN / Daily Mail,0,0,0,0,0,0,0,2,2,66,40,36,43,50,95,268,342,0,0,0,0,0,0,0,0.08760403,0.056417489,0.953481653,0.233972859,0.172802765,0.169005227,0.202339039,0.265355716,0.32599837,0.256895619
+Dataset,COCO,1,0,1,0,1,0,1,1,0,0,0,0,0,0,"Natural Language Processing > Text Generation >  
+Computer Vision > Pose Estimation > Keypoint Detection 
+Computer Vision > Pose Estimation > Multi-Person Pose Estimation 
+Computer Vision > Pose Estimation >  
+Computer Vision > Object Detection > Weakly Supervised Object Detection 
+Computer Vision > Object Detection > Real-Time Object Detection 
+Computer Vision > Object Detection >  
+Computer Vision > Visual Question Answering >  
+Computer Vision > Image Generation > Text-to-Image Generation 
+Computer Vision > Image Generation >  
+",COCO,0,0,0,0,0,0,2,21,37,126,344,357,450,716,1031,2481,4185,0,0,0,0,0,0,0.168491997,0.919842313,1.043723554,1.820283155,2.012166589,1.713627418,1.768659356,2.897495043,2.879807827,3.017917746,3.14359113
+Dataset,Cohn-Kanade,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Facial Expression Recognition >  
+Computer Vision > Facial Recognition and Modelling > Facial Expression Recognition 
+",Cohn-Kanade,0,0,0,0,0,1,1,2,3,4,19,8,15,14,9,18,33,0,0,0,0,0,0.166944908,0.084245998,0.08760403,0.084626234,0.057786767,0.111137108,0.038400614,0.058955312,0.056654931,0.025138963,0.021895413,0.024788174
+Dataset,CompCars,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Classification > Fine-Grained Image Classification 
+",CompCars,0,0,0,0,0,0,0,1,0,0,1,2,3,4,4,11,11,0,0,0,0,0,0,0,0.043802015,0,0,0.005849321,0.009600154,0.011791062,0.016187123,0.011172872,0.01338053,0.008262725
+Dataset,COMPLEXQUESTIONS,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering >  
+",COMPLEXQUESTIONS,0,0,0,0,0,0,0,0,0,0,0,2,0,6,4,2,3,0,0,0,0,0,0,0,0,0,0,0,0.009600154,0,0.024280685,0.011172872,0.002432824,0.00225347
+Dataset,CoNLL,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Natural Language Processing,CoNLL,3,15,16,17,12,10,28,147,67,98,273,227,280,317,498,1055,1198,1.948051948,3.968253968,4.833836858,2.987697715,1.474201474,1.669449082,2.358887953,6.438896189,1.889985896,1.415775787,1.596864764,1.089617434,1.100499155,1.282829509,1.391022597,1.283314479,0.899885824
+Dataset,CoQA,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering >  
+",CoQA,0,0,0,0,0,0,0,0,0,0,4,22,27,37,59,116,171,0,0,0,0,0,0,0,0,0,0,0.023397286,0.10560169,0.106119561,0.149730889,0.164799866,0.141103772,0.12844781
+Dataset,Cora,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Graphs > Node Classification >  
+Graphs > Link Prediction >  
+",Cora,3,3,5,4,16,11,14,24,32,54,128,237,335,223,317,820,1368,1.948051948,0.793650794,1.510574018,0.702987698,1.965601966,1.83639399,1.179443976,1.051248357,0.902679831,0.780121352,0.748713149,1.137618202,1.316668632,0.902432115,0.885450127,0.997457699,1.027582477
+Dataset,SentEval CR,0,0,0,0,0,0,1,0,1,0,0,1,0,0,"Natural Language Processing > Sentiment Analysis >  
+Natural Language Processing > Relation Extraction >  
+Natural Language Processing > Question Answering >  
+",SentEval CR,0,0,0,0,0,0,0,0,0,0,9,4,1,8,16,22,22,0,0,0,0,0,0,0,0,0,0,0.052643893,0.019200307,0.003930354,0.032374246,0.044691489,0.02676106,0.016525449
+Dataset,Criteo,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Miscellaneous > Click-Through Rate Prediction >  
+",Criteo,0,0,0,0,0,2,0,3,6,17,46,60,71,47,55,143,178,0,0,0,0,0,0.333889816,0,0.131406045,0.169252468,0.245593759,0.269068788,0.288004608,0.279055143,0.190198697,0.153626994,0.173946891,0.133705907
+Dataset,CT-150,0,0,1,0,1,0,0,0,0,0,1,0,0,0,"Medical > Medical Image Segmentation > Pancreas Segmentation 
+",CT-150,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.008093562,0,0.001216412,0
+Dataset,CUB,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Methodology > Meta-Learning > Few-Shot Image Classification 
+Computer Vision > Image Classification > Fine-Grained Image Classification 
+Computer Vision > Image Classification > Few-Shot Image Classification 
+Computer Vision > Object Localization > Weakly-Supervised Object Localization 
+Computer Vision > Image Generation > Text-to-Image Generation 
+Computer Vision > Image Generation >  
+",CUB,0,0,1,6,2,0,3,12,24,25,113,119,146,162,235,523,1032,0,0,0.302114804,1.054481547,0.245700246,0,0.252737995,0.525624179,0.677009873,0.361167293,0.660973327,0.571209139,0.573831702,0.655578487,0.656406246,0.636183386,0.775193798
+Dataset,CUFS,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Sketch > Face Sketch Synthesis 
+Computer Vision > Facial Recognition and Modelling > Face Sketch Synthesis 
+",CUFS,0,0,0,0,0,0,0,0,2,0,4,2,0,1,3,0,2,0,0,0,0,0,0,0,0,0.056417489,0,0.023397286,0.009600154,0,0.004046781,0.008379654,0,0.001502314
+Dataset,CUFSF,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Sketch > Face Sketch Synthesis 
+Computer Vision > Facial Recognition and Modelling > Face Sketch Synthesis 
+",CUFSF,0,0,0,0,0,0,0,0,0,0,3,2,1,1,1,0,2,0,0,0,0,0,0,0,0,0,0,0.017547964,0.009600154,0.003930354,0.004046781,0.002793218,0,0.001502314
+Dataset,CUHK,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Sketch > Face Sketch Synthesis 
+Computer Vision > Facial Recognition and Modelling > Face Sketch Synthesis 
+",CUHK,0,5,4,3,6,2,7,19,23,27,94,67,112,103,199,539,948,0,1.322751323,1.208459215,0.527240773,0.737100737,0.333889816,0.589721988,0.832238283,0.648801128,0.390060676,0.549836219,0.321605146,0.440199662,0.416818421,0.555850395,0.655645976,0.712096629
+Dataset,DailyDialog,0,0,0,0,0,0,1,1,0,0,0,0,0,0,"Natural Language Processing > Text Generation >  
+",DailyDialog,0,0,0,0,0,0,0,0,0,0,4,17,22,30,50,152,125,0,0,0,0,0,0,0,0,0,0,0.023397286,0.081601306,0.086467791,0.121403424,0.139660903,0.184894598,0.093894598
+Dataset,DBpedia,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Text Classification >  
+",DBpedia,0,1,6,5,12,2,12,31,19,41,119,155,198,192,265,547,606,0,0.264550265,1.812688822,0.878734622,1.474201474,0.333889816,1.01095198,1.357862462,0.53596615,0.59231436,0.696069256,0.744011904,0.778210117,0.776981911,0.740202788,0.66537727,0.45520101
+Dataset,DensePose-COCO,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Pose Estimation >  
+",DensePose-COCO,0,0,0,0,0,0,0,0,0,0,2,1,1,2,0,1,6,0,0,0,0,0,0,0,0,0,0,0.011698643,0.004800077,0.003930354,0.008093562,0,0.001216412,0.004506941
+Dataset,Dianping,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Miscellaneous > Click-Through Rate Prediction >  
+",Dianping,0,0,0,0,0,0,0,1,1,2,0,9,7,8,8,7,14,0,0,0,0,0,0,0,0.043802015,0.028208745,0.028893383,0,0.043200691,0.027512479,0.032374246,0.022345745,0.008514883,0.010516195
+Dataset,DIC HeLa,0,0,1,0,1,0,0,0,0,0,1,0,0,0,"Medical > Medical Image Segmentation > Cell Segmentation 
+",DIC HeLa,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0.005586436,0,0.000751157
+Dataset,DISFA,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Facial Expression Recognition > Smile Recognition 
+Computer Vision > Facial Recognition and Modelling > Smile Recognition 
+Computer Vision > Facial Recognition and Modelling > Facial Expression Recognition > Smile Recognition 
+",DISFA,0,0,0,0,0,0,0,0,1,0,5,4,2,5,10,8,17,0,0,0,0,0,0,0,0,0.028208745,0,0.029246607,0.019200307,0.007860708,0.020233904,0.027932181,0.009731295,0.012769665
+Dataset,Disguised Faces in the Wild,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Face Verification > Disguised Face Verification 
+Computer Vision > Facial Recognition and Modelling > Face Verification > Disguised Face Verification 
+",Disguised Faces in the Wild,0,0,0,0,0,0,0,0,0,0,0,0,0,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.016187123,0.002793218,0.001216412,0
+Dataset,Douban,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Miscellaneous > Recommendation Systems > Collaborative Filtering 
+",Douban,0,0,0,0,1,0,1,3,3,5,15,16,18,25,32,64,89,0,0,0,0,0.122850123,0,0.084245998,0.131406045,0.084626234,0.072233459,0.087739822,0.076801229,0.070746374,0.10116952,0.089382978,0.077850357,0.066852954
+Dataset,DRIVE,0,0,1,0,1,0,0,0,0,0,1,0,0,0,"Medical > Medical Image Segmentation > Retinal Vessel Segmentation 
+",DRIVE,0,0,0,0,0,0,0,0,0,0,8,7,3,11,17,55,62,0,0,0,0,0,0,0,0,0,0,0.046794572,0.033600538,0.011791062,0.044514589,0.047484707,0.066902651,0.04657172
+Dataset,DUC 2004 Task 1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Text Summarization >  
+",DUC 2004 Task 1,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0.005849321,0.004800077,0,0.004046781,0,0,0.001502314
+Dataset,DukeMTMC-reID,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Person Re-Identification >  
+",DukeMTMC-reID,0,0,0,0,0,0,0,0,0,0,6,4,6,23,9,8,22,0,0,0,0,0,0,0,0,0,0,0.035095929,0.019200307,0.023582125,0.093075958,0.025138963,0.009731295,0.016525449
+Dataset,DuReader,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering > Open-Domain Question Answering 
+",DuReader,0,0,0,0,0,0,0,0,0,0,1,4,3,7,7,30,51,0,0,0,0,0,0,0,0,0,0,0.005849321,0.019200307,0.011791062,0.028327466,0.019552526,0.036492355,0.038308996
+Dataset,ECCV HotOrNot,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Facial Recognition and Modelling > Facial Beauty Prediction 
+",ECCV HotOrNot,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0,0,0
+Game,Game of Go,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Playing Games > Board Games,Game of Go,0,0,1,1,0,2,0,1,35,91,325,365,363,350,294,568,981,0,0,0.302114804,0.175746924,0,0.333889816,0,0.043802015,0.987306065,1.314648945,1.901029481,1.752028032,1.426718547,1.416373275,0.821206112,0.690921919,0.736884803
+Game,Shogi,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Playing Games > Board Games ,Shogi,0,0,0,0,1,0,0,0,0,2,50,91,128,156,143,335,541,0,0,0,0,0.122850123,0,0,0,0,0.028893383,0.292466074,0.436806989,0.503085328,0.631297803,0.399430184,0.407497963,0.406375819
+Dataset,EMNLP 2017,0,0,0,0,0,0,1,1,0,0,0,0,0,0,"Natural Language Processing > Text Generation >  
+",EMNLP 2017,0,0,0,0,0,0,0,0,0,11,129,90,95,93,129,193,264,0,0,0,0,0,0,0,0,0,0.158913609,0.754562471,0.432006912,0.373383642,0.376350613,0.360325131,0.234767483,0.19830539
+Dataset,enwiki8,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Language Modelling >  
+",enwiki8,0,0,0,0,0,0,0,0,0,0,0,6,4,3,4,5,7,0,0,0,0,0,0,0,0,0,0,0,0.028800461,0.015721416,0.012140342,0.011172872,0.006082059,0.005258097
+Dataset,Event2Mind,1,0,0,0,0,0,0,0,0,0,1,1,0,0,"Reasoning > Common Sense Reasoning >  
+",Event2Mind,0,0,0,0,0,0,0,0,0,0,1,5,9,6,12,20,14,0,0,0,0,0,0,0,0,0,0,0.005849321,0.024000384,0.035373187,0.024280685,0.033518617,0.024328237,0.010516195
+Dataset,Fashion-MNIST,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Classification >  
+",Fashion-MNIST,0,0,0,0,0,0,0,0,0,18,237,442,621,433,540,1183,1762,0,0,0,0,0,0,0,0,0,0.260040451,1.38628919,2.121633946,2.440749912,1.75225608,1.508337756,1.439015193,1.323538249
+Dataset,FB15k-237,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Graphs > Link Prediction >  
+",FB15k-237,0,0,0,0,0,0,0,0,1,4,24,53,66,60,77,135,228,0,0,0,0,0,0,0,0,0.028208745,0.057786767,0.140383715,0.25440407,0.259403372,0.242806847,0.215077791,0.164215597,0.171263746
+Dataset,FCE,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Grammatical Error Correction > Grammatical Error Detection 
+",FCE,0,0,0,0,1,0,0,1,1,8,18,20,24,18,31,66,153,0,0,0,0,0.122850123,0,0,0.043802015,0.028208745,0.115573534,0.105287787,0.096001536,0.094328499,0.072842054,0.08658976,0.080283181,0.114926988
+Dataset,FDDB,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Face Detection >  
+Computer Vision > Facial Recognition and Modelling > Face Detection 
+",FDDB,0,0,0,0,0,0,0,0,1,1,4,6,6,8,6,7,14,0,0,0,0,0,0,0,0,0.028208745,0.014446692,0.023397286,0.028800461,0.023582125,0.032374246,0.016759308,0.008514883,0.010516195
+Dataset,FFHQ,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Generation >  
+",FFHQ,0,0,0,0,0,0,0,0,0,0,1,21,46,74,97,286,495,0,0,0,0,0,0,0,0,0,0,0.005849321,0.100801613,0.18079629,0.299461778,0.270942152,0.347893783,0.371822607
+Dataset,FGNET,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Facial Recognition and Modelling > Age Estimation 
+",FGNET,0,0,1,0,1,1,0,2,3,1,7,10,9,7,11,16,13,0,0,0.302114804,0,0.122850123,0.166944908,0,0.08760403,0.084626234,0.014446692,0.04094525,0.048000768,0.035373187,0.028327466,0.030725399,0.019462589,0.009765038
+Dataset,FGVC Aircraft,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Classification > Fine-Grained Image Classification 
+",FGVC Aircraft,0,0,0,0,0,0,0,0,0,3,7,16,18,14,41,98,175,0,0,0,0,0,0,0,0,0,0.043340075,0.04094525,0.076801229,0.070746374,0.056654931,0.114521941,0.119208359,0.131452437
+Dataset,fisher WER,0,0,0,1,0,0,0,0,0,0,0,0,0,0,"Speech > Speech Recognition >  
+",fisher WER,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0,0.001216412,0
+Dataset,FLIC,0,0,1,0,1,0,0,0,0,0,0,0,0,0,Computer Vision > Pose Estimation,FLIC,0,0,0,0,0,0,2,0,3,1,3,1,2,5,6,12,13,0,0,0,0,0,0,0.168491997,0,0.084626234,0.014446692,0.017547964,0.004800077,0.007860708,0.020233904,0.016759308,0.014596942,0.009765038
+Dataset,Flixster,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Miscellaneous > Recommendation Systems > Collaborative Filtering 
+",Flixster,0,0,0,1,1,0,5,3,2,7,7,11,6,4,7,11,21,0,0,0,0.175746924,0.122850123,0,0.421229992,0.131406045,0.056417489,0.101126842,0.04094525,0.052800845,0.023582125,0.016187123,0.019552526,0.01338053,0.015774292
+Dataset,Florence 3D Faces,0,0,1,0,1,0,0,0,0,0,0,1,0,0,"Computer Vision > Face Reconstruction > 3D Face Reconstruction 
+Computer Vision > Facial Recognition and Modelling > Face Reconstruction > 3D Face Reconstruction 
+Computer Vision > Facial Recognition and Modelling > 3D Face Reconstruction 
+",Florence 3D Faces,0,0,0,0,0,1,2,1,0,0,1,6,18,39,69,214,383,0,0,0,0,0,0.166944908,0.168491997,0.043802015,0,0,0.005849321,0.028800461,0.070746374,0.157824451,0.192732047,0.260312131,0.287693047
+Dataset,Flowers-102,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Classification > Fine-Grained Image Classification 
+",Flowers-102,0,0,0,0,1,0,0,1,2,8,7,12,22,32,50,187,333,0,0,0,0,0.122850123,0,0,0.043802015,0.056417489,0.115573534,0.04094525,0.057600922,0.086467791,0.129496985,0.139660903,0.227469012,0.250135208
+Dataset,GENIA,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Nested Mention Recognition >  
+",GENIA,0,0,2,1,0,0,4,1,2,2,3,6,9,7,26,49,56,0,0,0.604229607,0.175746924,0,0,0.336983993,0.043802015,0.056417489,0.028893383,0.017547964,0.028800461,0.035373187,0.028327466,0.07262367,0.05960418,0.04206478
+Dataset,GigaWord,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Text Summarization >  
+",GigaWord,0,0,0,2,0,1,0,1,0,1,7,3,1,5,2,6,12,0,0,0,0.351493849,0,0.166944908,0,0.043802015,0,0.014446692,0.04094525,0.01440023,0.003930354,0.020233904,0.005586436,0.007298471,0.009013881
+Dataset,GLUE,1,0,0,0,0,0,0,0,0,0,0,1,0,0,"Methodology > Transfer Learning > Multi-Task Learning 
+",GLUE,0,3,3,3,5,1,2,2,21,16,39,152,253,369,668,1610,2271,0,0.793650794,0.906344411,0.527240773,0.614250614,0.166944908,0.168491997,0.08760403,0.592383639,0.231147067,0.228123538,0.729611674,0.994379594,1.49326211,1.865869668,1.958423044,1.705877051
+Dataset,Google Dataset,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Sentence Embeddings > Sentence Compression 
+Methodology > Representation Learning > Sentence Embeddings > Sentence Compression 
+",Google Dataset,0,1,0,0,0,2,1,4,1,5,7,16,26,23,17,34,52,0,0.264550265,0,0,0,0.333889816,0.084245998,0.17520806,0.028208745,0.072233459,0.04094525,0.076801229,0.102189207,0.093075958,0.047484707,0.041358002,0.039060153
+Dataset,Google Street Images,0,0,1,0,1,0,0,0,0,0,0,0,0,0,Computer Vision > Safety Perception Recognition,Google Street Images,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0.004800077,0,0.004046781,0,0,0.001502314
+Game,GTA V,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Generation > Image-to-Image Translation > Synthetic-to-Real Translation 
+Computer Vision > Image-to-Image Translation > Synthetic-to-Real Translation 
+",GTA V,0,0,0,0,0,0,0,0,0,2,4,3,4,15,17,29,35,0,0,0,0,0,0,0,0,0,0.028893383,0.023397286,0.01440023,0.015721416,0.060701712,0.047484707,0.035275943,0.026290487
+Dataset,GTSRB,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Autonomous Vehicles > Traffic Sign Recognition 
+",GTSRB,0,0,0,0,1,1,0,1,3,5,22,44,53,42,74,175,262,0,0,0,0,0.122850123,0.166944908,0,0.043802015,0.084626234,0.072233459,0.128685073,0.211203379,0.208308769,0.169964793,0.206698137,0.21287207,0.196803077
+Dataset,HANDS 2017,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Hand Pose Estimation >  
+Computer Vision > Pose Estimation > Hand Pose Estimation 
+Computer Vision > Hand > Hand Pose Estimation 
+",HANDS 2017,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0,0,0.000751157
+Dataset,Helpdesk,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Time Series > Time Series Forecasting > Multivariate Time Series Forecasting 
+",Helpdesk,0,0,0,0,2,0,0,0,4,3,12,5,21,13,11,14,15,0,0,0,0,0.245700246,0,0,0,0.112834979,0.043340075,0.070191858,0.024000384,0.082537437,0.05260815,0.030725399,0.017029766,0.011267352
+Dataset,HIV dataset,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Medical > Drug Discovery >  
+",HIV dataset,0,1,0,0,0,1,0,0,4,6,8,7,9,6,13,30,50,0,0.264550265,0,0,0,0.166944908,0,0,0.112834979,0.08668015,0.046794572,0.033600538,0.035373187,0.024280685,0.036311835,0.036492355,0.037557839
+Dataset,HotpotQA,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering >  
+",HotpotQA,0,0,0,0,0,0,0,0,0,0,0,22,57,62,112,297,733,0,0,0,0,0,0,0,0,0,0,0,0.10560169,0.224030185,0.250900409,0.312840423,0.361274313,0.550597921
+Dataset,Human3.6M,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Pose Estimation > 3D Human Pose Estimation 
+",Human3.6M,0,0,0,0,0,0,0,0,5,5,16,19,19,35,42,119,182,0,0,0,0,0,0,0,0,0.141043724,0.072233459,0.093589144,0.091201459,0.074676728,0.141637328,0.117315159,0.144753008,0.136710534
+Dataset,Hutter Prize,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Language Modelling >  
+",Hutter Prize,0,0,0,2,0,1,0,0,4,7,3,8,5,7,1,3,14,0,0,0,0.351493849,0,0.166944908,0,0,0.112834979,0.101126842,0.017547964,0.038400614,0.019651771,0.028327466,0.002793218,0.003649235,0.010516195
+Dataset,ICSI MRDA Corpus,0,0,0,0,0,0,1,0,0,0,1,0,0,0,Natural Language Processing > Dialogue Act Classification ,ICSI MRDA Corpus,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.003930354,0.004046781,0,0.001216412,0
+Dataset,ICVL Hands,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Hand Pose Estimation >  
+Computer Vision > Pose Estimation > Hand Pose Estimation 
+Computer Vision > Hand > Hand Pose Estimation 
+",ICVL Hands,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0,0,0.000751157
+Dataset,IDHP,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Miscellaneous > Causal Inference >  
+",IDHP,0,0,0,0,0,0,0,0,0,0,0,2,2,4,0,3,1,0,0,0,0,0,0,0,0,0,0,0,0.009600154,0.007860708,0.016187123,0,0.003649235,0.000751157
+Dataset,IEMOCAP,0,0,0,0,0,0,1,0,1,0,0,0,0,0,"Natural Language Processing > Emotion Recognition > Emotion Recognition in Conversation 
+Natural Language Processing > Emotion Recognition > Multimodal Emotion Recognition 
+",IEMOCAP,0,0,0,0,0,0,0,0,0,2,23,34,20,37,65,160,230,0,0,0,0,0,0,0,0,0,0.028893383,0.134534394,0.163202611,0.078607082,0.149730889,0.181559174,0.194625893,0.17276606
+Dataset,IJB,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Face Verification >  
+Computer Vision > Facial Recognition and Modelling > Face Identification 
+Computer Vision > Facial Recognition and Modelling > Face Verification 
+",IJB,0,0,0,0,1,3,1,0,1,8,21,46,25,41,28,58,83,0,0,0,0,0.122850123,0.500834725,0.084245998,0,0.028208745,0.115573534,0.122835751,0.220803533,0.098258853,0.165918012,0.078210106,0.070551886,0.062346013
+Dataset,ILSVRC,0,0,1,0,1,0,0,0,0,0,1,0,0,0,"Computer Vision > Object Localization > Weakly-Supervised Object Localization 
+",ILSVRC,0,0,0,2,3,8,11,30,59,136,272,271,284,239,214,373,630,0,0,0,0.351493849,0.368550369,1.335559265,0.926705981,1.314060447,1.664315938,1.964750072,1.591015442,1.300820813,1.116220571,0.967180608,0.597748666,0.453721612,0.473228772
+Dataset,ImageNet,0,0,1,0,1,0,0,0,0,0,1,0,0,0,"Computer Vision > Image Classification > Few-Shot Image Classification 
+Computer Vision > Image Classification >  
+Computer Vision > Object Detection > Video Object Detection 
+Computer Vision > Object Detection > Weakly Supervised Object Detection 
+Computer Vision > Object Detection >  
+Computer Vision > Image Generation > Conditional Image Generation 
+Methodology > Meta-Learning > Few-Shot Image Classification ",ImageNet,0,0,7,11,16,26,47,113,265,611,1647,2014,2330,2178,2995,6518,10635,0,0,2.114803625,1.933216169,1.965601966,4.340567613,3.959561921,4.949627683,7.475317348,8.826928633,9.633832475,9.667354678,9.157725111,8.813888552,8.365688109,7.928572297,7.988552371
+Dataset,IMDb,0,0,0,0,0,0,1,0,1,0,0,1,0,0,"Natural Language Processing > Text Classification > Document Classification 
+Natural Language Processing > Text Classification >  
+Natural Language Processing > Sentiment Analysis >  
+",IMDb,3,5,3,11,9,6,16,25,27,100,209,240,311,304,451,912,1443,1.948051948,1.322751323,0.906344411,1.933216169,1.105651106,1.001669449,1.347935973,1.095050372,0.761636107,1.444669171,1.222508189,1.152018432,1.222340133,1.230221359,1.259741348,1.109367587,1.083919236
+Dataset,iNaturalist,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Classification >  
+",iNaturalist,0,0,0,0,0,0,0,0,0,2,4,15,25,30,56,196,340,0,0,0,0,0,0,0,0,0,0.028893383,0.023397286,0.072001152,0.098258853,0.121403424,0.156420212,0.238416718,0.255393306
+Dataset,Indian Pines,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Classification > Hyperspectral Image Classification 
+Computer Vision > Hyperspectral > Hyperspectral Image Classification 
+",Indian Pines,0,0,0,1,0,0,0,0,3,1,11,13,7,9,12,16,29,0,0,0,0.175746924,0,0,0,0,0.084626234,0.014446692,0.064342536,0.062400998,0.027512479,0.036421027,0.033518617,0.019462589,0.021783547
+Dataset,iPinYou,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Miscellaneous > Click-Through Rate Prediction >  
+",iPinYou,0,0,0,0,0,0,0,0,0,1,2,2,2,2,2,11,2,0,0,0,0,0,0,0,0,0,0.014446692,0.011698643,0.009600154,0.007860708,0.008093562,0.005586436,0.01338053,0.001502314
+Dataset,ISBI 2012 EM Segmentation,0,0,1,0,1,0,0,0,0,0,1,0,0,0,"Medical > Medical Image Segmentation >  
+",ISBI 2012 EM Segmentation,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0.122850123,0,0,0,0,0,0,0,0,0.004046781,0,0,0.000751157
+Dataset,iSEG 2017 Challenge,0,0,1,0,1,0,0,0,0,0,1,0,0,0,"Medical > Medical Image Segmentation > Infant Brain Mri Segmentation 
+Medical > Medical Image Segmentation >  
+",iSEG 2017 Challenge,0,0,0,0,0,0,0,0,0,0,1,2,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0.005849321,0.009600154,0.003930354,0.004046781,0.002793218,0.001216412,0.000751157
+Dataset,ISIC 2018,0,0,1,0,1,0,0,0,0,0,1,0,0,0,"Medical > Medical Image Segmentation > Lesion Segmentation 
+",ISIC 2018,0,0,0,0,0,0,0,0,0,0,4,7,9,10,20,46,94,0,0,0,0,0,0,0,0,0,0,0.023397286,0.033600538,0.035373187,0.040467808,0.055864361,0.055954944,0.070608737
+Dataset,ITOP,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Pose Estimation >  
+",ITOP,0,0,0,0,1,0,0,0,0,0,0,1,1,3,4,15,19,0,0,0,0,0.122850123,0,0,0,0,0,0,0.004800077,0.003930354,0.012140342,0.011172872,0.018246177,0.014271979
+Dataset,IWSLT,0,0,0,0,0,0,1,0,0,0,1,0,0,0,"Natural Language Processing > Machine Translation >  
+",IWSLT,0,1,0,0,2,0,2,3,4,14,62,40,70,60,120,266,342,0,0.264550265,0,0,0.245700246,0,0.168491997,0.131406045,0.112834979,0.202253684,0.362657932,0.192003072,0.275124789,0.242806847,0.335186168,0.323565546,0.256895619
+Dataset,JFLEG,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Grammatical Error Correction > Grammatical Error Detection 
+Natural Language Processing > Grammatical Error Correction >  
+",JFLEG,0,0,0,0,0,0,0,0,0,0,4,3,2,2,9,30,25,0,0,0,0,0,0,0,0,0,0,0.023397286,0.01440023,0.007860708,0.008093562,0.025138963,0.036492355,0.01877892
+Dataset,JIGSAWS,0,0,1,0,1,0,0,0,0,0,0,1,0,0,"Medical > Surgical Skills Evaluation >  
+",JIGSAWS,0,1,0,0,1,0,0,0,2,2,1,5,8,13,5,15,30,0,0.264550265,0,0,0.122850123,0,0,0,0.056417489,0.028893383,0.005849321,0.024000384,0.031442833,0.05260815,0.01396609,0.018246177,0.022534703
+Dataset,Kaggle Skin Lesion Segmentation,0,0,1,0,1,0,0,0,0,0,1,0,0,0,"Medical > Medical Image Segmentation > Skin Cancer Segmentation 
+",Kaggle Skin Lesion Segmentation,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0,0,0
+Dataset,KITTI,0,0,1,0,1,0,0,0,0,0,0,0,0,0,Computer Vision > Object Localization ,KITTI,0,0,0,0,1,4,4,2,15,28,82,111,122,173,339,742,1081,0,0,0,0,0.122850123,0.667779633,0.336983993,0.08760403,0.423131171,0.404507368,0.479644361,0.532808525,0.479503203,0.700093076,0.946900925,0.902577577,0.812000481
+Dataset,Labeled Faces in the Wild,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Face Verification >  
+Computer Vision > Facial Recognition and Modelling > Face Verification 
+",Labeled Faces in the Wild,0,0,0,2,2,3,6,4,22,25,55,43,43,43,37,77,112,0,0,0,0.351493849,0.245700246,0.500834725,0.50547599,0.17520806,0.620592384,0.361167293,0.321712681,0.206403302,0.169005227,0.174011574,0.103349068,0.093663711,0.08412956
+Dataset,Leeds Sports Poses,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Pose Estimation >  
+",Leeds Sports Poses,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,2,1,0,0,0,0,0,0,0.084245998,0,0,0,0,0,0,0.004046781,0,0.002432824,0.000751157
+Dataset,LexNorm,0,0,0,0,1,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Lexical Normalization >  
+",LexNorm,0,0,0,0,0,0,0,0,0,0,0,1,0,1,3,4,7,0,0,0,0,0,0,0,0,0,0,0,0.004800077,0,0.004046781,0.008379654,0.004865647,0.005258097
+Dataset,LibriSpeech,0,0,0,1,0,0,0,0,0,0,0,0,0,0,"Speech > Speech Recognition >  
+",LibriSpeech,0,0,0,0,0,0,0,0,2,7,27,39,49,65,203,463,608,0,0,0,0,0,0,0,0,0.056417489,0.101126842,0.15793168,0.187202995,0.192587352,0.263040751,0.567023268,0.563198677,0.456703323
+Dataset,LineMOD,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Pose Estimation > 6D Pose Estimation 
+",LineMOD,0,0,0,0,0,0,0,0,1,1,0,1,4,2,13,10,10,0,0,0,0,0,0,0,0,0.028208745,0.014446692,0,0.004800077,0.015721416,0.008093562,0.036311835,0.012164118,0.007511568
+Dataset,Long-tail emerging entities,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Named Entity Recognition >  
+",Long-tail emerging entities,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.003930354,0.004046781,0,0,0
+Dataset,LSUN Bedroom 256 x 256,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Generation >  
+",LSUN Bedroom 256 x 256,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,4,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0.005586436,0.004865647,0.006760411
+Dataset,LUNA,0,0,1,0,1,0,0,0,0,0,1,0,0,0,"Medical > Medical Image Segmentation > Lung Nodule Segmentation 
+",LUNA,0,0,0,2,3,5,3,1,4,17,48,43,88,91,196,501,837,0,0,0,0.351493849,0.368550369,0.834724541,0.252737995,0.043802015,0.112834979,0.245593759,0.280767431,0.206403302,0.345871163,0.368257052,0.547470741,0.609422326,0.628718226
+Dataset,MAFA,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Face Detection > Occluded Face Detection 
+Computer Vision > Facial Recognition and Modelling > Face Detection > Occluded Face Detection 
+",MAFA,0,0,0,0,0,0,1,0,1,0,0,0,0,6,3,6,7,0,0,0,0,0,0,0.084245998,0,0.028208745,0,0,0,0,0.024280685,0.008379654,0.007298471,0.005258097
+Dataset,Mandarin Chinese,0,0,0,1,0,0,0,1,0,0,0,0,0,0,"Speech > Speech Synthesis >  
+",Mandarin Chinese,0,0,0,0,0,0,0,1,0,3,7,7,8,13,54,101,173,0,0,0,0,0,0,0,0.043802015,0,0.043340075,0.04094525,0.033600538,0.031442833,0.05260815,0.150833776,0.122857595,0.129950123
+Dataset,Market 1501,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Person Re-Identification >  
+",Market 1501,0,0,0,0,0,0,0,0,1,2,14,9,12,32,23,26,60,0,0,0,0,0,0,0,0,0.028208745,0.028893383,0.081890501,0.043200691,0.047164249,0.129496985,0.064244016,0.031626708,0.045069407
+Dataset,MCTest,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering >  
+",MCTest,0,0,0,0,0,0,0,4,9,9,20,17,16,15,20,40,40,0,0,0,0,0,0,0,0.17520806,0.253878702,0.130020225,0.11698643,0.081601306,0.062885666,0.060701712,0.055864361,0.048656473,0.030046271
+Dataset,Medical domain,0,0,0,0,0,0,1,0,0,0,1,0,0,0,"Natural Language Processing > Hypernym Discovery >  
+",Medical domain,0,2,2,3,2,1,1,7,14,25,83,135,175,187,299,890,1746,0,0.529100529,0.604229607,0.527240773,0.245700246,0.166944908,0.084245998,0.306614104,0.394922426,0.361167293,0.485493683,0.648010368,0.687811972,0.756748007,0.835172202,1.082606527,1.31151974
+Dataset,MegaFace,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Face Verification >  
+Computer Vision > Facial Recognition and Modelling > Face Identification 
+Computer Vision > Facial Recognition and Modelling > Face Verification 
+",MegaFace,0,0,0,0,0,0,0,0,4,7,7,4,7,18,8,15,14,0,0,0,0,0,0,0,0,0.112834979,0.101126842,0.04094525,0.019200307,0.027512479,0.072842054,0.022345745,0.018246177,0.010516195
+Dataset,METR-LA,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Time Series > Traffic Prediction >  
+",METR-LA,0,0,0,0,0,0,0,0,0,0,2,7,11,21,31,84,118,0,0,0,0,0,0,0,0,0,0,0.011698643,0.033600538,0.043233895,0.084982397,0.08658976,0.102178594,0.0886365
+Dataset,MHP,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Human Parsing > Multi-Human Parsing 
+",MHP,0,0,0,0,0,0,0,0,3,4,8,5,13,20,21,61,87,0,0,0,0,0,0,0,0,0.084626234,0.057786767,0.046794572,0.024000384,0.051094604,0.080935616,0.058657579,0.074201122,0.06535064
+Dataset,Million Song Dataset,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Miscellaneous > Recommendation Systems > Collaborative Filtering 
+",Million Song Dataset,0,0,0,0,2,2,8,11,15,16,35,29,27,22,22,45,86,0,0,0,0,0.245700246,0.333889816,0.673967987,0.481822164,0.423131171,0.231147067,0.204726252,0.139202227,0.106119561,0.089029177,0.061450797,0.054738532,0.064599483
+Dataset,MIMIC-III,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Medical > Mortality Prediction >  
+",MIMIC-III,0,0,0,0,0,0,0,0,6,15,86,125,140,119,181,446,635,0,0,0,0,0,0,0,0,0.169252468,0.216700376,0.503041647,0.6000096,0.550249577,0.481566914,0.50557247,0.542519675,0.476984556
+Dataset,Mini-ImageNet,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Methodology > Meta-Learning > Few-Shot Image Classification 
+Computer Vision > Image Classification > Few-Shot Image Classification 
+",Mini-ImageNet,0,0,0,0,0,0,0,0,1,9,35,69,110,60,107,200,366,0,0,0,0,0,0,0,0,0.028208745,0.130020225,0.204726252,0.331205299,0.432338954,0.242806847,0.298874333,0.243282366,0.274923382
+Dataset,MLDoc,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Cross-Lingual > Cross-Lingual Document Classification 
+",MLDoc,0,0,0,0,0,0,0,0,0,0,0,3,1,5,7,8,7,0,0,0,0,0,0,0,0,0,0,0,0.01440023,0.003930354,0.020233904,0.019552526,0.009731295,0.005258097
+Dataset,MMI,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Facial Expression Recognition >  
+Computer Vision > Facial Recognition and Modelling > Facial Expression Recognition 
+",MMI,0,1,0,2,4,1,1,5,4,8,34,43,38,38,61,100,136,0,0.264550265,0,0.351493849,0.491400491,0.166944908,0.084245998,0.219010074,0.112834979,0.115573534,0.19887693,0.206403302,0.149353457,0.15377767,0.170386302,0.121641183,0.102157322
+Dataset,MNIST,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Unsupervised Image-To-Image Translation >  
+Computer Vision > Image Classification > Sequential Image Classification 
+Computer Vision > Image Classification >  
+Computer Vision > Image Generation > Image-to-Image Translation > Unsupervised Image-To-Image Translation 
+Computer Vision > Image-to-Image Translation > Unsupervised Image-To-Image Translation 
+",MNIST,18,33,24,44,66,59,122,209,382,875,2046,2335,2645,1782,2118,4369,7561,11.68831169,8.73015873,7.250755287,7.732864675,8.108108108,9.849749583,10.27801179,9.154621113,10.77574048,12.64085524,11.96771175,11.20817933,10.39578666,7.21136336,5.916035865,5.314503278,5.679496424
+Dataset,ModelNet40,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Object Recognition > 3D Object Recognition 
+",ModelNet40,0,0,0,0,0,0,0,0,3,5,16,35,26,42,50,95,194,0,0,0,0,0,0,0,0,0.084626234,0.072233459,0.093589144,0.168002688,0.102189207,0.169964793,0.139660903,0.115559124,0.145724416
+Dataset,Monologue,0,0,0,0,0,0,1,0,1,0,0,0,0,0,"Natural Language Processing > Emotion Recognition > Multimodal Emotion Recognition 
+",Monologue,1,0,0,0,1,0,0,0,5,1,11,14,9,23,30,261,455,0.649350649,0,0,0,0.122850123,0,0,0,0.141043724,0.014446692,0.064342536,0.067201075,0.035373187,0.093075958,0.083796542,0.317483487,0.341776336
+Dataset,MORPH,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Face Recognition > Age-Invariant Face Recognition 
+Computer Vision > Facial Recognition and Modelling > Age-Invariant Face Recognition 
+Computer Vision > Facial Recognition and Modelling > Age Estimation 
+Computer Vision > Facial Recognition and Modelling > Face Recognition > Age-Invariant Face Recognition 
+",MORPH,1,1,2,0,4,0,5,4,10,17,40,57,73,61,93,243,371,0.649350649,0.264550265,0.604229607,0,0.491400491,0,0.421229992,0.17520806,0.282087447,0.245593759,0.233972859,0.273604378,0.286915851,0.246853628,0.25976928,0.295588074,0.278679166
+Dataset,MORPH Album2,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Face Recognition > Age-Invariant Face Recognition 
+Computer Vision > Facial Recognition and Modelling > Age-Invariant Face Recognition 
+Computer Vision > Facial Recognition and Modelling > Age Estimation 
+Computer Vision > Facial Recognition and Modelling > Face Recognition > Age-Invariant Face Recognition 
+",MORPH Album2,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,2,0,0,0,0,0,0,0,0,0.028208745,0,0,0,0,0.008093562,0,0,0.001502314
+Dataset,MOSI,0,0,0,0,0,0,1,0,1,0,0,0,0,0,"Natural Language Processing > Sentiment Analysis > Multimodal Sentiment Analysis 
+",MOSI,0,0,0,0,0,0,0,0,0,1,11,17,8,18,25,52,87,0,0,0,0,0,0,0,0,0,0.014446692,0.064342536,0.081601306,0.031442833,0.072842054,0.069830452,0.063253415,0.06535064
+Dataset,MovieLens,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Miscellaneous > Recommendation Systems > Collaborative Filtering 
+Miscellaneous > Click-Through Rate Prediction >  
+",MovieLens,6,5,6,14,27,13,30,126,62,86,134,143,175,139,153,346,561,3.896103896,1.322751323,1.812688822,2.460456942,3.316953317,2.170283806,2.527379949,5.519053876,1.748942172,1.242415487,0.783809078,0.686410983,0.687811972,0.562502529,0.427362364,0.420878493,0.421398954
+Dataset,MPII,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Gaze Estimation >  
+",MPII,0,1,0,1,0,1,0,1,5,6,18,17,19,23,26,62,103,0,0.264550265,0,0.175746924,0,0.166944908,0,0.043802015,0.141043724,0.08668015,0.105287787,0.081601306,0.074676728,0.093075958,0.07262367,0.075417533,0.077369148
+Dataset,MPQA,0,0,0,0,0,0,1,0,1,0,0,0,0,0,"Natural Language Processing > Sentiment Analysis >  
+",MPQA,0,1,2,2,4,1,1,9,9,4,21,16,19,16,29,62,64,0,0.264550265,0.604229607,0.351493849,0.491400491,0.166944908,0.084245998,0.394218134,0.253878702,0.057786767,0.122835751,0.076801229,0.074676728,0.064748493,0.081003324,0.075417533,0.048074034
+Dataset,SentEval  MR,0,0,0,0,1,0,1,1,1,0,1,0,0,0,"Natural Language Processing > Sentiment Analysis >  
+Natural Language Processing > Dialogue > Dialogue Act Classification 
+Graphs > Link Prediction >  
+",SentEval  MR,0,0,0,0,0,0,0,0,0,0,9,3,1,8,117,25,28,0,0,0,0,0,0,0,0,0,0,0.052643893,0.01440023,0.003930354,0.032374246,0.326806514,0.030410296,0.02103239
+Dataset,MRR,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Graphs > Link Prediction >  
+",MRR,0,3,1,2,5,0,4,14,20,37,130,151,220,266,357,827,1116,0,0.793650794,0.302114804,0.351493849,0.614250614,0,0.336983993,0.613228208,0.564174894,0.534527593,0.760411792,0.724811597,0.864677907,1.076443689,0.99717885,1.005972582,0.838290968
+Dataset,MS COCO,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Generation > Text-to-Image Generation 
+",MS COCO,0,0,0,0,0,0,0,9,14,45,120,83,134,189,293,651,1063,0,0,0,0,0,0,0,0.394218134,0.394922426,0.650101127,0.701918577,0.398406375,0.526667453,0.764841569,0.818412893,0.7918841,0.798479659
+Dataset,MS MARCO,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering >  
+",MS MARCO,0,0,0,0,0,0,0,0,14,9,22,22,30,49,100,292,514,0,0,0,0,0,0,0,0,0.394922426,0.130020225,0.128685073,0.10560169,0.117910624,0.198292259,0.279321807,0.355192254,0.386094586
+Dataset,MSRA,0,0,1,0,1,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Named Entity Recognition > Chinese Named Entity Recognition 
+Computer Vision > Hand Pose Estimation >  
+Computer Vision > Pose Estimation > Hand Pose Estimation 
+Computer Vision > Hand > Hand Pose Estimation 
+",MSRA,0,2,2,1,1,2,5,10,3,19,26,27,22,30,41,73,110,0,0.529100529,0.604229607,0.175746924,0.122850123,0.333889816,0.421229992,0.438020149,0.084626234,0.274487142,0.152082358,0.129602074,0.086467791,0.121403424,0.114521941,0.088798063,0.082627246
+Dataset,Multi-Domain Sentiment Dataset,0,0,0,0,0,0,1,0,1,0,0,0,0,0,"Natural Language Processing > Sentiment Analysis >  
+",Multi-Domain Sentiment Dataset,0,0,2,3,0,0,0,0,2,2,2,3,0,3,2,2,5,0,0,0.604229607,0.527240773,0,0,0,0,0.056417489,0.028893383,0.011698643,0.01440023,0,0.012140342,0.005586436,0.002432824,0.003755784
+Dataset,MultiMNIST,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Classification >  
+",MultiMNIST,0,0,0,0,0,0,0,0,2,3,15,10,12,10,5,17,68,0,0,0,0,0,0,0,0,0.056417489,0.043340075,0.087739822,0.048000768,0.047164249,0.040467808,0.01396609,0.020679001,0.051078661
+Dataset,MultiNLI,0,0,0,0,0,0,1,0,0,0,1,0,0,0,"Natural Language Processing > Natural Language Inference >  
+",MultiNLI,0,0,0,0,0,0,0,0,0,0,37,36,47,60,59,176,193,0,0,0,0,0,0,0,0,0,0,0.216424895,0.172802765,0.184726644,0.242806847,0.164799866,0.214088482,0.144973259
+Dataset,MultiRC,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering >  
+",MultiRC,0,0,0,0,0,0,0,0,0,0,2,8,23,19,35,110,150,0,0,0,0,0,0,0,0,0,0,0.011698643,0.038400614,0.090398145,0.076888835,0.097762632,0.133805301,0.112673517
+Dataset,Mushroom,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Miscellaneous > Multi-Armed Bandits
+",Mushroom,3,7,4,3,14,3,17,23,18,28,67,69,94,75,103,229,382,1.948051948,1.851851852,1.208459215,0.527240773,1.71990172,0.500834725,1.432181971,1.007446343,0.507757405,0.404507368,0.391904539,0.331205299,0.369453288,0.303508559,0.287701461,0.278558309,0.286941891
+Dataset,Music domain,0,0,0,0,0,0,1,0,0,0,1,0,0,0,"Natural Language Processing > Hypernym Discovery >  
+",Music domain,0,0,0,1,2,1,3,2,3,6,8,26,18,13,32,66,103,0,0,0,0.175746924,0.245700246,0.166944908,0.252737995,0.08760403,0.084626234,0.08668015,0.046794572,0.124801997,0.070746374,0.05260815,0.089382978,0.080283181,0.077369148
+Dataset,MUV,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Medical > Drug Discovery >  
+",MUV,0,0,0,0,1,2,0,2,4,6,3,15,21,18,23,87,145,0,0,0,0,0.122850123,0.333889816,0,0.08760403,0.112834979,0.08668015,0.017547964,0.072001152,0.082537437,0.072842054,0.064244016,0.105827829,0.108917733
+Dataset,NABirds,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Classification > Fine-Grained Image Classification 
+",NABirds,0,0,0,0,0,0,0,0,0,0,5,0,3,7,8,22,48,0,0,0,0,0,0,0,0,0,0,0.029246607,0,0.011791062,0.028327466,0.022345745,0.02676106,0.036055526
+Dataset,NarrativeQA,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering >  
+",NarrativeQA,0,0,0,0,0,0,0,0,0,1,11,10,12,21,23,80,205,0,0,0,0,0,0,0,0,0,0.014446692,0.064342536,0.048000768,0.047164249,0.084982397,0.064244016,0.097312946,0.15398714
+Dataset,NELL,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Graphs > Node Classification >  
+",NELL,0,0,0,5,3,2,4,12,9,14,40,55,71,53,69,136,191,0,0,0,0.878734622,0.368550369,0.333889816,0.336983993,0.525624179,0.253878702,0.202253684,0.233972859,0.264004224,0.279055143,0.214479382,0.192732047,0.165432009,0.143470945
+Prize,Netflix,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Miscellaneous > Recommendation Systems > Collaborative Filtering 
+",Netflix,5,9,12,21,30,15,56,56,111,165,243,243,279,215,259,349,577,3.246753247,2.380952381,3.625377644,3.690685413,3.685503686,2.504173623,4.717775906,2.452912834,3.131170663,2.383704132,1.421385119,1.166418663,1.096568801,0.870057869,0.723443479,0.424527728,0.433417463
+Dataset,New York Times Corpus,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Relationship Extraction (Distant Supervised) >  
+",New York Times Corpus,0,0,1,1,0,2,1,2,1,6,7,5,6,4,2,5,10,0,0,0.302114804,0.175746924,0,0.333889816,0.084245998,0.08760403,0.028208745,0.08668015,0.04094525,0.024000384,0.023582125,0.016187123,0.005586436,0.006082059,0.007511568
+Dataset,NewsQA,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering >  
+",NewsQA,0,0,0,0,0,0,0,0,3,2,17,9,28,27,57,85,78,0,0,0,0,0,0,0,0,0.084626234,0.028893383,0.099438465,0.043200691,0.110049915,0.109263081,0.15921343,0.103395005,0.058590229
+Dataset,North American English,0,0,0,1,0,0,0,1,0,0,0,0,0,0,"Speech > Speech Synthesis >  
+",North American English,0,0,0,0,0,0,0,0,0,1,1,8,10,10,17,41,80,0,0,0,0,0,0,0,0,0,0.014446692,0.005849321,0.038400614,0.039303541,0.040467808,0.047484707,0.049872885,0.060092543
+Dataset,Noun Phrase Canonicalization,1,0,0,0,1,0,0,0,0,0,1,0,0,0,"Knowledge Base > Knowledge Graphs > Open Knowledge Graph Canonicalization 
+",Noun Phrase Canonicalization,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0,0,0.000751157
+Dataset,NYU Depth v2,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Object Detection > 3D Object Detection 
+",NYU Depth v2,0,0,0,0,0,0,2,4,1,4,3,8,7,9,13,39,62,0,0,0,0,0,0,0.168491997,0.17520806,0.028208745,0.057786767,0.017547964,0.038400614,0.027512479,0.036421027,0.036311835,0.047440061,0.04657172
+Dataset,NYU Hands,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Hand Pose Estimation >  
+Computer Vision > Pose Estimation > Hand Pose Estimation 
+Computer Vision > Hand > Hand Pose Estimation 
+",NYU Hands,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0,0,0
+Dataset,Occluded LINEMOD,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Pose Estimation > 6D Pose Estimation 
+",Occluded LINEMOD,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0.005586436,0.002432824,0.001502314
+Dataset,OCCLUSION 6D Pose Estimation,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Pose Estimation > 6D Pose Estimation 
+",OCCLUSION 6D Pose Estimation,0,0,0,2,2,0,1,3,1,2,16,19,13,56,90,242,305,0,0,0,0.351493849,0.245700246,0,0.084245998,0.131406045,0.028208745,0.028893383,0.093589144,0.091201459,0.051094604,0.226619724,0.251389626,0.294371662,0.229102818
+Dataset,Ohsumed,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Text Classification >  
+",Ohsumed,0,10,0,5,5,1,5,2,2,10,11,15,9,10,11,22,39,0,2.645502646,0,0.878734622,0.614250614,0.166944908,0.421229992,0.08760403,0.056417489,0.144466917,0.064342536,0.072001152,0.035373187,0.040467808,0.030725399,0.02676106,0.029295114
+Dataset,OMNIGLOT,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Methodology > Meta-Learning > Few-Shot Image Classification 
+Computer Vision > Image Classification > Few-Shot Image Classification 
+",OMNIGLOT,0,0,0,0,0,1,1,1,18,39,122,122,127,71,87,131,332,0,0,0,0,0,0.166944908,0.084245998,0.043802015,0.507757405,0.563420977,0.71361722,0.58560937,0.499154974,0.287321436,0.243009972,0.15934995,0.249384051
+Dataset,One Billion Word,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Language Modelling >  
+",One Billion Word,0,0,0,0,0,0,0,2,11,18,38,28,38,15,20,43,109,0,0,0,0,0,0,0,0.08760403,0.310296192,0.260040451,0.222274216,0.13440215,0.149353457,0.060701712,0.055864361,0.052305709,0.081876089
+Dataset,OntoNotes,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Named Entity Recognition > Chinese Named Entity Recognition 
+Natural Language Processing > Semantic Role Labeling >  
+",OntoNotes,0,0,0,0,0,1,0,6,3,7,24,25,32,45,95,183,153,0,0,0,0,0,0.166944908,0,0.262812089,0.084626234,0.101126842,0.140383715,0.12000192,0.125771332,0.182105135,0.265355716,0.222603365,0.114926988
+Dataset,Oxford IIIT Pets,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Classification > Fine-Grained Image Classification 
+",Oxford IIIT Pets,0,0,0,0,0,0,0,0,0,0,2,2,8,18,17,50,79,0,0,0,0,0,0,0,0,0,0,0.011698643,0.009600154,0.031442833,0.072842054,0.047484707,0.060820591,0.059341386
+Dataset,Oxford 102 Flowers,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Classification > Fine-Grained Image Classification 
+Computer Vision > Image Generation > Text-to-Image Generation 
+Computer Vision > Image Generation >  
+",Oxford 102 Flowers,0,0,0,0,0,0,0,1,2,0,3,6,5,6,7,22,43,0,0,0,0,0,0,0,0.043802015,0.056417489,0,0.017547964,0.028800461,0.019651771,0.024280685,0.019552526,0.02676106,0.032299742
+Dataset,PA-100K,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Autonomous Vehicles > Pedestrian Attribute Recognition 
+",PA-100K,0,0,0,0,0,0,0,0,0,0,0,2,1,2,0,5,10,0,0,0,0,0,0,0,0,0,0,0,0.009600154,0.003930354,0.008093562,0,0.006082059,0.007511568
+Dataset,Par6k,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Retrieval >  
+",Par6k,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0.002793218,0,0.000751157
+Dataset,PASCAL VOC,0,0,1,0,1,0,0,0,0,0,0,0,0,0,Computer Vision > Semantic Segmentation,PASCAL VOC,3,4,6,13,10,8,23,22,30,53,147,97,161,190,228,440,798,1.948051948,1.058201058,1.812688822,2.284710018,1.228501229,1.335559265,1.937657961,0.963644328,0.846262341,0.765674661,0.859850257,0.46560745,0.632787014,0.768888349,0.636853719,0.535221204,0.599423112
+Dataset,Pavia University,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Classification > Hyperspectral Image Classification 
+Computer Vision > Hyperspectral > Hyperspectral Image Classification 
+",Pavia University,0,0,0,0,0,0,1,0,1,0,11,10,1,8,6,15,19,0,0,0,0,0,0,0.084245998,0,0.028208745,0,0.064342536,0.048000768,0.003930354,0.032374246,0.016759308,0.018246177,0.014271979
+Dataset,PCBA,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Medical > Drug Discovery >  
+",PCBA,0,0,0,0,0,0,0,1,1,6,1,3,3,8,19,41,74,0,0,0,0,0,0,0,0.043802015,0.028208745,0.08668015,0.005849321,0.01440023,0.011791062,0.032374246,0.053071143,0.049872885,0.055585602
+Dataset,Penn Treebank,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Constituency Parsing >  
+Natural Language Processing > Chunking >  
+Natural Language Processing > Dependency Parsing > Transition-Based Dependency Parsing 
+Natural Language Processing > Dependency Parsing >  
+Natural Language Processing > Language Modelling >  
+Natural Language Processing > Part-Of-Speech Tagging >  
+",Penn Treebank,3,9,6,6,3,7,7,19,39,63,146,129,102,67,97,250,372,1.948051948,2.380952381,1.812688822,1.054481547,0.368550369,1.168614357,0.589721988,0.832238283,1.100141044,0.910141578,0.854000936,0.619209907,0.400896121,0.271134313,0.270942152,0.304102957,0.279430323
+Dataset,PETA,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Autonomous Vehicles > Pedestrian Attribute Recognition 
+",PETA,0,0,1,1,0,1,0,1,1,1,5,12,12,18,24,45,84,0,0,0.302114804,0.175746924,0,0.166944908,0,0.043802015,0.028208745,0.014446692,0.029246607,0.057600922,0.047164249,0.072842054,0.067037234,0.054738532,0.06309717
+Dataset,PhC-U373,0,0,1,0,1,0,0,0,0,0,1,0,0,0,"Medical > Medical Image Segmentation > Cell Segmentation 
+",PhC-U373,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0.002793218,0.002432824,0.000751157
+Dataset,Photo Art 50,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Object Recognition > Depiction Invariant Object Recognition 
+",Photo Art 50,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.008093562,0,0,0
+Dataset,PROMISE 2012,0,0,1,0,1,0,0,0,0,0,1,0,0,0,"Medical > Medical Image Segmentation > Volumetric Medical Image Segmentation 
+",PROMISE 2012,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.003930354,0.008093562,0,0,0
+Dataset,Pubmed,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Graphs > Node Classification >  
+Graphs > Link Prediction >  
+",Pubmed,0,4,3,7,8,7,18,16,31,47,142,257,355,339,498,1285,2101,0,1.058201058,0.906344411,1.230228471,0.982800983,1.168614357,1.51642797,0.700832238,0.874471086,0.67899451,0.83060365,1.233619738,1.395275714,1.371858686,1.391022597,1.563089199,1.578180398
+Dataset,QAngaroo,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering >  
+",QAngaroo,0,0,0,0,0,0,0,0,0,0,4,6,8,2,4,4,5,0,0,0,0,0,0,0,0,0,0,0.023397286,0.028800461,0.031442833,0.008093562,0.011172872,0.004865647,0.003755784
+Dataset,QASent,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering >  
+",QASent,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0.028208745,0,0,0,0,0.004046781,0,0,0.000751157
+Dataset,QM9,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Medical > Drug Discovery >  
+",QM9,0,0,0,0,0,0,0,1,0,7,21,45,53,49,88,235,417,0,0,0,0,0,0,0,0.043802015,0,0.101126842,0.122835751,0.216003456,0.208308769,0.198292259,0.24580319,0.28585678,0.313232378
+Dataset,QuAC,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering >  
+",QuAC,0,0,0,0,0,0,0,0,0,0,4,18,15,26,43,77,100,0,0,0,0,0,0,0,0,0,0,0.023397286,0.086401382,0.058955312,0.1052163,0.120108377,0.093663711,0.075115678
+Dataset,Quasar,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering > Open-Domain Question Answering 
+",Quasar,4,0,1,2,2,5,1,1,0,2,12,14,20,14,21,41,55,2.597402597,0,0.302114804,0.351493849,0.245700246,0.834724541,0.084245998,0.043802015,0,0.028893383,0.070191858,0.067201075,0.078607082,0.056654931,0.058657579,0.049872885,0.041313623
+Dataset,Quora Question Pairs,0,0,0,0,0,0,1,0,0,0,1,1,0,0,"Natural Language Processing > Paraphrase Identification >  
+Natural Language Processing > Natural Language Inference >  
+Natural Language Processing > Question Answering >  
+",Quora Question Pairs,0,0,0,0,0,0,0,0,0,7,9,29,26,37,62,130,156,0,0,0,0,0,0,0,0,0,0.101126842,0.052643893,0.139202227,0.102189207,0.149730889,0.17317952,0.158133538,0.117180458
+Dataset,R52,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Text Classification >  
+",R52,0,0,4,1,3,2,4,2,2,8,19,28,34,43,30,91,155,0,0,1.208459215,0.175746924,0.368550369,0.333889816,0.336983993,0.08760403,0.056417489,0.115573534,0.111137108,0.13440215,0.13363204,0.174011574,0.083796542,0.110693476,0.116429301
+Dataset,R8 Text Classification,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Text Classification >  
+",R8 Text Classification,0,0,0,0,0,0,2,0,3,5,12,15,35,19,38,91,187,0,0,0,0,0,0,0.168491997,0,0.084626234,0.072233459,0.070191858,0.072001152,0.137562394,0.076888835,0.106142287,0.110693476,0.140466318
+Dataset,RaFD,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Generation > Image-to-Image Translation 
+Computer Vision > Image-to-Image Translation >  
+",RaFD,0,0,0,0,0,0,0,0,0,1,1,5,5,6,3,2,10,0,0,0,0,0,0,0,0,0,0.014446692,0.005849321,0.024000384,0.019651771,0.024280685,0.008379654,0.002432824,0.007511568
+Dataset,RAP,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Autonomous Vehicles > Pedestrian Attribute Recognition 
+",RAP,1,3,2,3,0,2,0,4,12,9,22,28,38,43,77,220,442,0.649350649,0.793650794,0.604229607,0.527240773,0,0.333889816,0,0.17520806,0.338504937,0.130020225,0.128685073,0.13440215,0.149353457,0.174011574,0.215077791,0.267610602,0.332011297
+Dataset,Real-World Affective Faces,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Facial Expression Recognition >  
+Computer Vision > Facial Recognition and Modelling > Facial Expression Recognition 
+",Real-World Affective Faces,0,0,0,0,0,0,0,0,0,0,2,1,1,1,4,4,3,0,0,0,0,0,0,0,0,0,0,0.011698643,0.004800077,0.003930354,0.004046781,0.011172872,0.004865647,0.00225347
+Dataset,RecipeQA,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering >  
+",RecipeQA,0,0,0,0,0,0,0,0,0,0,0,1,5,4,5,7,21,0,0,0,0,0,0,0,0,0,0,0,0.004800077,0.019651771,0.016187123,0.01396609,0.008514883,0.015774292
+Dataset,NER,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Named Entity Recognition > Chinese Named Entity Recognition 
+",NER,0,4,2,6,10,10,15,24,34,100,140,245,269,392,661,1581,1952,0,1.058201058,0.604229607,1.054481547,1.228501229,1.669449082,1.263689975,1.051248357,0.95909732,1.444669171,0.818905007,1.176018816,1.05726526,1.586338068,1.846317142,1.923147101,1.466258037
+Dataset,Reuters-21578,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Text Classification > Document Classification 
+",Reuters-21578,0,5,0,8,7,5,8,5,18,12,28,29,20,20,20,39,56,0,1.322751323,0,1.405975395,0.85995086,0.834724541,0.673967987,0.219010074,0.507757405,0.1733603,0.163781001,0.139202227,0.078607082,0.080935616,0.055864361,0.047440061,0.04206478
+Dataset,Reverb,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering >  
+",Reverb,0,0,0,1,0,0,0,5,1,6,11,15,23,26,47,84,91,0,0,0,0.175746924,0,0,0,0.219010074,0.028208745,0.08668015,0.064342536,0.072001152,0.090398145,0.1052163,0.131281249,0.102178594,0.068355267
+Dataset,RotoWire,0,0,0,0,0,0,1,1,0,0,0,0,0,0,"Natural Language Processing > Text Generation > Data-to-Text Generation 
+",RotoWire,0,0,0,0,0,0,0,0,0,0,0,1,1,2,6,6,8,0,0,0,0,0,0,0,0,0,0,0,0.004800077,0.003930354,0.008093562,0.016759308,0.007298471,0.006009254
+Dataset,RT-GENE,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Gaze Estimation >  
+",RT-GENE,0,0,0,0,0,0,0,0,0,0,1,0,1,2,4,4,6,0,0,0,0,0,0,0,0,0,0,0.005849321,0,0.003930354,0.008093562,0.011172872,0.004865647,0.004506941
+Dataset,RumourEval,0,0,0,0,0,0,1,0,1,0,0,0,0,0,"Natural Language Processing > Stance Detection >  
+",RumourEval,0,0,0,0,0,0,0,0,0,0,2,5,1,7,8,12,23,0,0,0,0,0,0,0,0,0,0,0.011698643,0.024000384,0.003930354,0.028327466,0.022345745,0.014596942,0.017276606
+Dataset,RVL-CDIP,0,1,1,1,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Classification > Document Image Classification 
+Computer Vision > Document Image Classification >  
+",RVL-CDIP,0,0,0,0,0,0,0,0,0,0,0,1,3,5,13,25,35,0,0,0,0,0,0,0,0,0,0,0,0.004800077,0.011791062,0.020233904,0.036311835,0.030410296,0.026290487
+Dataset,SBD,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Edge Detection >  
+",SBD,0,0,0,1,0,0,1,1,1,5,10,12,20,19,27,72,124,0,0,0,0.175746924,0,0,0.084245998,0.043802015,0.028208745,0.072233459,0.058493215,0.057600922,0.078607082,0.076888835,0.075416888,0.087581652,0.093143441
+Dataset,Scan2CAD,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > 3D > 3D Reconstruction 
+Computer Vision > 3D Reconstruction >  
+",Scan2CAD,0,0,0,0,0,0,0,0,0,0,0,4,2,6,7,11,22,0,0,0,0,0,0,0,0,0,0,0,0.019200307,0.007860708,0.024280685,0.019552526,0.01338053,0.016525449
+Dataset,ScanNet,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Semantic Segmentation > Scene Segmentation 
+",ScanNet,0,0,0,0,0,0,0,0,0,1,8,12,9,29,58,161,336,0,0,0,0,0,0,0,0,0,0.014446692,0.046794572,0.057600922,0.035373187,0.117356643,0.162006648,0.195842304,0.252388679
+Dataset,SciTail,0,0,0,0,0,0,1,0,0,0,1,0,0,0,"Natural Language Processing > Natural Language Inference >  
+",SciTail,0,0,0,0,0,0,0,0,0,0,10,8,17,14,17,37,40,0,0,0,0,0,0,0,0,0,0,0.058493215,0.038400614,0.06681602,0.056654931,0.047484707,0.045007238,0.030046271
+Dataset,SCUT-FBP,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Facial Recognition and Modelling > Facial Beauty Prediction 
+",SCUT-FBP,0,0,0,0,0,0,0,0,1,0,0,1,1,1,0,5,3,0,0,0,0,0,0,0,0,0.028208745,0,0,0.004800077,0.003930354,0.004046781,0,0.006082059,0.00225347
+Dataset,SearchQA,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering > Open-Domain Question Answering 
+",SearchQA,0,0,0,0,0,0,0,0,0,0,15,10,17,18,29,51,91,0,0,0,0,0,0,0,0,0,0,0.087739822,0.048000768,0.06681602,0.072842054,0.081003324,0.062037003,0.068355267
+Dataset,Second dialogue state tracking challenge,0,0,0,0,1,0,1,1,0,0,0,0,0,0,"Natural Language Processing > Dialogue > Dialogue State Tracking 
+",Second dialogue state tracking challenge,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.011698643,0,0,0.004046781,0,0,0
+Dataset,SemEval,0,0,0,0,0,0,1,0,1,0,1,1,0,0,"Natural Language Processing > Text Classification > Emotion Classification 
+Natural Language Processing > Relationship Extraction (Distant Supervised) >  
+Natural Language Processing > Sentiment Analysis > Aspect-Based Sentiment Analysis 
+Natural Language Processing > Sentiment Analysis >  
+Natural Language Processing > Question Answering >  
+Natural Language Processing > Hypernym Discovery >  
+",SemEval,0,3,1,3,3,1,5,20,31,40,120,148,160,279,480,1111,1272,0,0.793650794,0.302114804,0.527240773,0.368550369,0.166944908,0.421229992,0.876040298,0.874471086,0.577867668,0.701918577,0.710411367,0.62885666,1.129051839,1.340744672,1.351433541,0.955471426
+Dataset,SensEval,0,0,0,0,0,0,1,0,1,0,0,1,0,0,Natural Language Processing > Word Sense Disambiguation,SensEval,0,0,0,0,1,0,0,2,0,0,3,1,0,2,0,1,3,0,0,0,0,0.122850123,0,0,0.08760403,0,0,0.017547964,0.004800077,0,0.008093562,0,0.001216412,0.00225347
+Dataset,SentEval,0,0,0,0,0,0,1,0,1,0,0,1,0,0,"Natural Language Processing > Semantic Textual Similarity >  
+",SentEval,0,0,0,0,0,0,0,0,0,0,11,11,4,16,41,70,64,0,0,0,0,0,0,0,0,0,0,0.064342536,0.052800845,0.015721416,0.064748493,0.114521941,0.085148828,0.048074034
+Dataset,Sentihood,0,0,0,0,0,0,1,0,1,0,0,1,0,0,"Natural Language Processing > Sentiment Analysis > Aspect-Based Sentiment Analysis 
+",Sentihood,0,0,0,0,0,0,0,0,0,0,1,3,4,5,5,4,5,0,0,0,0,0,0,0,0,0,0,0.005849321,0.01440023,0.015721416,0.020233904,0.01396609,0.004865647,0.003755784
+Dataset,Sequential MNIST,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Classification > Sequential Image Classification 
+",Sequential MNIST,0,0,0,0,0,0,0,0,4,11,17,13,21,10,16,25,54,0,0,0,0,0,0,0,0,0.112834979,0.158913609,0.099438465,0.062400998,0.082537437,0.040467808,0.044691489,0.030410296,0.040562466
+Dataset,ShanghaiTech,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Crowds > Crowd Counting 
+",ShanghaiTech,0,0,0,0,0,0,2,0,0,3,8,12,26,33,41,146,215,0,0,0,0,0,0,0.168491997,0,0,0.043340075,0.046794572,0.057600922,0.102189207,0.133543766,0.114521941,0.177596127,0.161498708
+Dataset,ShapeNet,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Semantic Segmentation >  
+",ShapeNet,0,0,0,0,0,0,0,1,5,12,56,40,56,92,136,314,532,0,0,0,0,0,0,0,0.043802015,0.141043724,0.1733603,0.327562003,0.192003072,0.220099831,0.372303832,0.379877657,0.381953314,0.399615408
+Dataset,SighanNER,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Named Entity Recognition > Chinese Named Entity Recognition 
+",SighanNER,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0,0,0
+Dataset,SimpleQuestions,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering >  
+",SimpleQuestions,0,1,0,1,1,1,0,5,7,14,20,40,36,52,53,125,296,0,0.264550265,0,0.175746924,0.122850123,0.166944908,0,0.219010074,0.197461213,0.202253684,0.11698643,0.192003072,0.141492748,0.210432601,0.148040558,0.152051479,0.222342407
+Dataset,Sintel,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Optical Flow Estimation >  
+",Sintel,0,0,0,0,0,1,0,1,2,3,4,8,6,7,18,37,49,0,0,0,0,0,0.166944908,0,0.043802015,0.056417489,0.043340075,0.023397286,0.038400614,0.023582125,0.028327466,0.050277925,0.045007238,0.036806682
+Dataset,SK-LARGE,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Object Detection > Object Skeleton Detection 
+",SK-LARGE,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0.005849321,0,0.003930354,0.004046781,0,0.001216412,0.000751157
+Dataset,SLAM 2018,1,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Language Acquisition >  
+",SLAM 2018,0,0,0,0,0,0,0,0,0,0,2,1,1,1,5,4,8,0,0,0,0,0,0,0,0,0,0,0.011698643,0.004800077,0.003930354,0.004046781,0.01396609,0.004865647,0.006009254
+Dataset,SNLI,0,0,0,0,0,0,1,0,0,0,1,0,0,0,"Natural Language Processing > Natural Language Inference >  
+",SNLI,0,0,0,0,0,0,0,0,3,13,73,61,109,147,219,514,558,0,0,0,0,0,0,0,0,0.084626234,0.187806992,0.427000468,0.292804685,0.4284086,0.594876776,0.611714757,0.62523568,0.419145484
+Dataset,Sogou News,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Text Classification >  
+",Sogou News,0,0,0,0,0,0,0,1,0,1,4,2,4,2,4,6,13,0,0,0,0,0,0,0,0.043802015,0,0.014446692,0.023397286,0.009600154,0.015721416,0.008093562,0.011172872,0.007298471,0.009765038
+Dataset,spider,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Semantic Parsing >  
+",spider,0,2,2,2,2,0,3,10,9,25,69,92,131,112,206,567,891,0,0.529100529,0.604229607,0.351493849,0.245700246,0,0.252737995,0.438020149,0.253878702,0.361167293,0.403603182,0.441607066,0.51487639,0.453239448,0.575402922,0.689705507,0.669280692
+Dataset,SQuAD,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering >  
+",SQuAD,0,0,0,0,0,0,0,0,7,13,125,151,217,258,383,892,1175,0,0,0,0,0,0,0,0,0.197461213,0.187806992,0.731165185,0.724811597,0.852886845,1.044069443,1.069802519,1.085039351,0.882609218
+Dataset,SR11Deep,0,0,0,0,0,0,1,1,0,0,0,0,0,0,"Natural Language Processing > Text Generation > Data-to-Text Generation 
+",SR11Deep,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0,0,0
+Dataset,SST,0,0,0,0,0,0,1,0,1,0,0,0,0,0,"Natural Language Processing > Sentiment Analysis >  
+",SST,0,2,0,5,4,5,3,5,9,11,83,119,185,219,472,1206,1768,0,0.529100529,0,0.878734622,0.491400491,0.834724541,0.252737995,0.219010074,0.253878702,0.158913609,0.485493683,0.571209139,0.727115513,0.886244992,1.318398927,1.466992665,1.32804519
+Dataset,Stanford Cars,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Classification > Fine-Grained Image Classification 
+Computer Vision > Image Retrieval >  
+",Stanford Cars,0,0,0,0,0,0,0,0,0,2,12,19,28,29,59,196,376,0,0,0,0,0,0,0,0,0,0.028893383,0.070191858,0.091201459,0.110049915,0.117356643,0.164799866,0.238416718,0.28243495
+Dataset,Stanford Dogs,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Classification > Fine-Grained Image Classification 
+",Stanford Dogs,0,0,0,0,2,0,0,1,3,2,16,18,30,27,28,71,117,0,0,0,0,0.245700246,0,0,0.043802015,0.084626234,0.028893383,0.093589144,0.086401382,0.117910624,0.109263081,0.078210106,0.08636524,0.087885343
+Dataset,STARE,0,0,1,0,1,0,0,0,0,0,1,0,0,0,"Medical > Medical Image Segmentation > Retinal Vessel Segmentation 
+",STARE,0,0,1,0,0,0,0,1,2,10,12,15,22,26,50,92,114,0,0,0.302114804,0,0,0,0,0.043802015,0.056417489,0.144466917,0.070191858,0.072001152,0.086467791,0.1052163,0.139660903,0.111909888,0.085631873
+Dataset,STL-10,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Classification >  
+",STL-10,0,0,0,3,8,4,5,5,11,25,36,54,89,80,121,313,502,0,0,0,0.527240773,0.982800983,0.667779633,0.421229992,0.219010074,0.310296192,0.361167293,0.210575573,0.259204147,0.349801517,0.323742463,0.337979386,0.380736902,0.377080704
+Dataset,Story Cloze Test,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering >  
+",Story Cloze Test,0,0,0,0,0,0,0,0,0,2,5,4,8,10,25,37,46,0,0,0,0,0,0,0,0,0,0.028893383,0.029246607,0.019200307,0.031442833,0.040467808,0.069830452,0.045007238,0.034553212
+Dataset,STS,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Semantic Textual Similarity >  
+",STS,1,1,3,1,5,1,5,12,12,16,54,110,152,191,297,780,1044,0.649350649,0.264550265,0.906344411,0.175746924,0.614250614,0.166944908,0.421229992,0.525624179,0.338504937,0.231147067,0.31586336,0.528008448,0.597413827,0.77293513,0.829585766,0.948801226,0.78420768
+Dataset,SUBJ,0,0,0,0,0,0,1,0,1,0,0,0,0,0,"Natural Language Processing > Subjectivity Analysis >  
+Natural Language Processing > Sentiment Analysis >  
+",SUBJ,2,1,4,3,7,4,5,10,18,21,65,51,53,49,95,276,298,1.298701299,0.264550265,1.208459215,0.527240773,0.85995086,0.667779633,0.421229992,0.438020149,0.507757405,0.303380526,0.380205896,0.244803917,0.208308769,0.198292259,0.265355716,0.335729665,0.223844721
+Dataset,SUN-RGBD,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Object Detection > 3D Object Detection 
+Computer Vision > Semantic Segmentation > Scene Segmentation 
+",SUN-RGBD,0,0,0,0,0,0,0,0,2,2,10,6,9,17,28,53,97,0,0,0,0,0,0,0,0,0.056417489,0.028893383,0.058493215,0.028800461,0.035373187,0.068795273,0.078210106,0.064469827,0.072862208
+Dataset,SVHN,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Classification >  
+",SVHN,0,0,0,0,0,5,4,10,47,102,309,361,444,279,370,808,1513,0,0,0,0,0,0.834724541,0.336983993,0.438020149,1.325811001,1.473562554,1.807440337,1.732827725,1.745077231,1.129051839,1.033490685,0.982860757,1.13650021
+Dataset,SVNH-to-MNIST,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Unsupervised Image-To-Image Translation >  
+Computer Vision > Image Generation > Image-to-Image Translation > Unsupervised Image-To-Image Translation 
+Computer Vision > Image-to-Image Translation > Unsupervised Image-To-Image Translation 
+",SVNH-to-MNIST,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0,0,0
+Dataset,SWAG,1,0,0,0,0,0,0,0,0,0,1,1,0,0,"Reasoning > Common Sense Reasoning >  
+",SWAG,0,0,0,1,0,1,0,0,0,0,6,38,75,65,116,420,1339,0,0,0,0.175746924,0,0.166944908,0,0,0,0,0.035095929,0.182402918,0.294776559,0.263040751,0.324013296,0.510892968,1.00579893
+Dataset,Switchboard,0,0,0,0,1,0,1,1,0,0,1,0,0,0,"Natural Language Processing > Dialogue > Dialogue Act Classification 
+",Switchboard,1,1,0,2,0,1,0,3,12,9,36,37,37,27,54,131,133,0.649350649,0.264550265,0,0.351493849,0,0.166944908,0,0.131406045,0.338504937,0.130020225,0.210575573,0.177602842,0.145423103,0.109263081,0.150833776,0.15934995,0.099903852
+Dataset,SYNTHIA,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Image Generation > Image-to-Image Translation 
+Computer Vision > Image-to-Image Translation >  
+",SYNTHIA,0,0,0,0,0,0,0,0,0,4,19,21,19,37,40,82,112,0,0,0,0,0,0,0,0,0,0.057786767,0.111137108,0.100801613,0.074676728,0.149730889,0.111728723,0.09974577,0.08412956
+Dataset,T-LESS,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Pose Estimation > 6D Pose Estimation 
+",T-LESS,0,0,0,0,0,1,1,2,0,2,5,8,15,11,25,41,73,0,0,0,0,0,0.166944908,0.084245998,0.08760403,0,0.028893383,0.029246607,0.038400614,0.058955312,0.044514589,0.069830452,0.049872885,0.054834445
+Dataset,TACRED,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Relation Extraction >  
+",TACRED,0,0,0,0,0,0,0,0,0,0,3,3,12,21,38,94,70,0,0,0,0,0,0,0,0,0,0,0.017547964,0.01440023,0.047164249,0.084982397,0.106142287,0.114342712,0.052580975
+Dataset,TCIA Pancreas CT,0,0,1,0,1,0,0,0,0,0,1,0,0,0,"Medical > Medical Image Segmentation > 3D Medical Imaging Segmentation 
+",TCIA Pancreas CT,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0.008093562,0.002793218,0.004865647,0.001502314
+Dataset,TempEval-3,0,0,0,0,1,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Information Extraction > Temporal Information Extraction 
+",TempEval-3,0,0,0,0,0,0,1,0,0,1,4,3,3,2,7,20,21,0,0,0,0,0,0,0.084245998,0,0,0.014446692,0.023397286,0.01440023,0.011791062,0.008093562,0.019552526,0.024328237,0.015774292
+Dataset,Text8,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Language Modelling >  
+",Text8,0,0,0,1,5,2,4,8,17,46,34,24,36,48,159,641,143,0,0,0,0.175746924,0.614250614,0.333889816,0.336983993,0.350416119,0.47954866,0.664547819,0.19887693,0.115201843,0.141492748,0.194245478,0.444121673,0.779719982,0.10741542
+Dataset,The ARRAU Corpus,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Anaphora Resolution > Abstract Anaphora Resolution 
+",The ARRAU Corpus,0,0,0,0,0,0,0,1,0,1,0,0,1,4,7,2,4,0,0,0,0,0,0,0,0.043802015,0,0.014446692,0,0,0.003930354,0.016187123,0.019552526,0.002432824,0.003004627
+Dataset,TimeBank,0,0,0,0,1,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Information Extraction > Temporal Information Extraction 
+",TimeBank,0,1,0,1,0,1,0,0,0,0,6,7,3,6,9,40,35,0,0.264550265,0,0.175746924,0,0.166944908,0,0,0,0,0.035095929,0.033600538,0.011791062,0.024280685,0.025138963,0.048656473,0.026290487
+Dataset,TIMIT,0,0,0,1,0,0,0,0,0,0,0,0,0,0,"Speech > Speech Recognition >  
+",TIMIT,0,2,2,4,7,6,8,21,25,47,62,66,47,43,63,132,193,0,0.529100529,0.604229607,0.702987698,0.85995086,1.001669449,0.673967987,0.919842313,0.705218618,0.67899451,0.362657932,0.316805069,0.184726644,0.174011574,0.175972738,0.160566361,0.144973259
+Dataset,Tox21,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Medical > Drug Discovery >  
+",Tox21,0,0,0,0,0,0,0,3,2,9,19,20,22,18,38,115,179,0,0,0,0,0,0,0,0.131406045,0.056417489,0.130020225,0.111137108,0.096001536,0.086467791,0.072842054,0.106142287,0.13988736,0.134457064
+Dataset,ToxCast,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Medical > Drug Discovery >  
+",ToxCast,0,0,0,0,0,0,0,0,0,4,3,3,4,11,16,56,103,0,0,0,0,0,0,0,0,0,0.057786767,0.017547964,0.01440023,0.015721416,0.044514589,0.044691489,0.068119062,0.077369148
+Dataset,TREC,0,0,0,0,1,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Ad-Hoc Information Retrieval >  
+Natural Language Processing > Text Classification >  
+",TREC,5,17,11,15,18,7,13,22,26,25,93,74,102,129,232,575,856,3.246753247,4.497354497,3.32326284,2.636203866,2.211302211,1.168614357,1.095197978,0.963644328,0.733427362,0.361167293,0.543986898,0.355205683,0.400896121,0.522034721,0.648026591,0.699436801,0.642990205
+Dataset,TrecQA,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering >  
+",TrecQA,0,0,2,2,1,0,0,1,1,3,11,4,9,13,9,12,16,0,0,0.604229607,0.351493849,0.122850123,0,0,0.043802015,0.028208745,0.043340075,0.064342536,0.019200307,0.035373187,0.05260815,0.025138963,0.014596942,0.012018509
+Dataset,TriviaQA,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering >  
+",TriviaQA,0,0,0,0,0,0,0,0,2,25,32,40,62,108,308,779,166,0,0,0,0,0,0,0,0,0.056417489,0.361167293,0.187178287,0.192003072,0.243681956,0.437052325,0.860311164,0.947584814,0.124692026
+Dataset,Tsinghua-Tencent,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Autonomous Vehicles > Traffic Sign Recognition 
+",Tsinghua-Tencent,0,0,0,0,0,0,0,2,0,1,7,1,0,2,2,8,4,0,0,0,0,0,0,0,0.08760403,0,0.014446692,0.04094525,0.004800077,0,0.008093562,0.005586436,0.009731295,0.003004627
+Dataset,TuSimple,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Autonomous Vehicles > Lane Detection 
+",TuSimple,0,0,0,0,0,0,0,0,1,3,3,1,9,6,19,26,10,0,0,0,0,0,0,0,0,0.028208745,0.043340075,0.017547964,0.004800077,0.035373187,0.024280685,0.053071143,0.031626708,0.007511568
+Dataset,Twitter Dialogue,0,0,0,0,1,0,1,1,0,0,0,0,0,0,"Natural Language Processing > Question Answering >  
+",Twitter Dialogue,0,0,0,0,0,0,0,0,1,1,1,4,2,2,1,0,1,0,0,0,0,0,0,0,0,0.028208745,0.014446692,0.005849321,0.019200307,0.007860708,0.008093562,0.002793218,0,0.000751157
+Dataset,Ubuntu Dialogue ,0,0,0,0,1,0,1,1,0,0,0,0,0,0,"Natural Language Processing > Question Answering >  
+",Ubuntu Dialogue ,0,0,0,0,0,0,0,0,6,8,24,25,29,25,23,43,26,0,0,0,0,0,0,0,0,0.169252468,0.115573534,0.140383715,0.12000192,0.11398027,0.10116952,0.064244016,0.052305709,0.019530076
+Dataset,UCF CC 50,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Crowds > Crowd Counting 
+",UCF CC 50,0,0,0,0,0,0,0,0,0,0,2,5,5,4,3,3,4,0,0,0,0,0,0,0,0,0,0,0.011698643,0.024000384,0.019651771,0.016187123,0.008379654,0.003649235,0.003004627
+Dataset,UD,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Part-Of-Speech Tagging >  
+",UD,1,5,9,11,15,14,24,37,52,133,169,274,237,387,840,1188,381,0.649350649,1.322751323,2.719033233,1.933216169,1.842751843,2.337228715,2.02190396,1.620674551,1.466854725,1.921409997,0.98853533,1.315221044,0.931493928,1.566104164,2.346303176,1.445097252,0.286190734
+Dataset,Urban100,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Super Resolution > Image Super-Resolution 
+",Urban100,0,0,0,0,0,0,0,0,0,3,7,8,10,7,18,39,80,0,0,0,0,0,0,0,0,0,0.043340075,0.04094525,0.038400614,0.039303541,0.028327466,0.050277925,0.047440061,0.060092543
+Dataset,UT Multi-view,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Gaze Estimation >  
+",UT Multi-view,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0,0,0
+Dataset,UTKFace,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Facial Recognition and Modelling > Age Estimation 
+",UTKFace,0,0,0,0,0,0,0,0,0,0,0,10,23,25,30,51,100,0,0,0,0,0,0,0,0,0,0,0,0.048000768,0.090398145,0.10116952,0.083796542,0.062037003,0.075115678
+Dataset,V-SNLI,0,0,0,0,0,0,1,0,0,0,1,0,0,0,"Natural Language Processing > Natural Language Inference >  
+",V-SNLI,0,0,0,0,0,0,0,0,0,0,0,2,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0.009600154,0,0.008093562,0,0.002432824,0
+Dataset,VggFace2,0,1,1,1,1,0,0,0,0,0,0,1,0,0,"Computer Vision > Image Inpainting > Facial Inpainting 
+Computer Vision > Image Generation > Facial Inpainting 
+Computer Vision > Facial Recognition and Modelling > Facial Inpainting 
+",VggFace2,0,0,0,0,0,0,0,0,1,0,0,2,4,7,3,16,9,0,0,0,0,0,0,0,0,0.028208745,0,0,0.009600154,0.015721416,0.028327466,0.008379654,0.019462589,0.006760411
+Dataset,Vid4,1,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Video > Video Super-Resolution 
+Computer Vision > Super Resolution > Video Super-Resolution 
+",Vid4,0,0,0,0,0,0,0,0,0,1,1,2,5,8,3,11,24,0,0,0,0,0,0,0,0,0,0.014446692,0.005849321,0.009600154,0.019651771,0.032374246,0.008379654,0.01338053,0.018027763
+Dataset,Visual7W,1,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Visual Question Answering >  
+",Visual7W,0,0,0,0,0,0,0,0,2,8,25,22,17,13,21,43,78,0,0,0,0,0,0,0,0,0.056417489,0.115573534,0.146233037,0.10560169,0.06681602,0.05260815,0.058657579,0.052305709,0.058590229
+Dataset,VoxForge,0,0,0,1,1,0,0,0,0,0,0,0,0,0,"Speech > Speech Recognition > Accented Speech Recognition 
+",VoxForge,0,0,0,0,0,1,0,0,1,1,1,4,3,1,4,13,9,0,0,0,0,0,0.166944908,0,0,0.028208745,0.014446692,0.005849321,0.019200307,0.011791062,0.004046781,0.011172872,0.015813354,0.006760411
+Dataset,WAF,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Pose Estimation > Multi-Person Pose Estimation 
+",WAF,1,0,0,0,2,2,0,1,0,3,3,4,17,16,22,40,85,0.649350649,0,0,0,0.245700246,0.333889816,0,0.043802015,0,0.043340075,0.017547964,0.019200307,0.06681602,0.064748493,0.061450797,0.048656473,0.063848326
+Dataset,WebFace,0,1,1,1,1,0,0,0,0,0,0,1,0,0,"Computer Vision > Image Inpainting > Facial Inpainting 
+Computer Vision > Image Generation > Facial Inpainting 
+Computer Vision > Facial Recognition and Modelling > Facial Inpainting 
+",WebFace,0,0,0,0,0,0,0,0,1,5,11,9,4,17,12,28,52,0,0,0,0,0,0,0,0,0.028208745,0.072233459,0.064342536,0.043200691,0.015721416,0.068795273,0.033518617,0.034059531,0.039060153
+Dataset,WebNLG,0,0,0,0,0,0,1,1,0,0,0,0,0,0,"Natural Language Processing > Text Generation > Data-to-Text Generation 
+",WebNLG,0,0,0,0,0,0,0,0,0,1,2,4,7,29,45,98,112,0,0,0,0,0,0,0,0,0,0.014446692,0.011698643,0.019200307,0.027512479,0.117356643,0.125694813,0.119208359,0.08412956
+Dataset,WebQuestions,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering >  
+",WebQuestions,0,0,0,1,0,0,0,3,2,2,6,10,23,32,57,127,177,0,0,0,0.175746924,0,0,0,0.131406045,0.056417489,0.028893383,0.035095929,0.048000768,0.090398145,0.129496985,0.15921343,0.154484302,0.13295475
+Dataset,Weibo NER,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Named Entity Recognition > Chinese Named Entity Recognition 
+",Weibo NER,0,0,0,0,0,0,0,0,0,0,0,0,0,1,6,4,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0.016759308,0.004865647,0.003755784
+Dataset,WikiBio,0,0,0,0,0,0,1,1,0,0,0,0,0,0,"Natural Language Processing > Text Generation > Table-to-text Generation 
+",WikiBio,0,0,0,0,0,0,0,0,0,0,1,0,3,6,16,42,74,0,0,0,0,0,0,0,0,0,0,0.005849321,0,0.011791062,0.024280685,0.044691489,0.051089297,0.055585602
+Dataset,WikiHop,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering >  
+",WikiHop,0,0,0,0,0,0,0,0,0,0,7,6,13,5,15,24,25,0,0,0,0,0,0,0,0,0,0,0.04094525,0.028800461,0.051094604,0.020233904,0.041898271,0.029193884,0.01877892
+Dataset,Wikipedia,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Graphs > Node Classification >  
+",Wikipedia,2,13,28,47,60,37,68,142,262,362,816,952,1204,1279,2009,4715,6679,1.298701299,3.439153439,8.459214502,8.260105448,7.371007371,6.176961603,5.728727885,6.219886115,7.390691114,5.229702398,4.773046327,4.569673115,4.732146366,5.175832625,5.611575096,5.735381771,5.016976143
+Dataset,WikiQA,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Question Answering >  
+",WikiQA,0,0,0,0,0,0,0,0,3,7,17,5,13,17,26,80,121,0,0,0,0,0,0,0,0,0.084626234,0.101126842,0.099438465,0.024000384,0.051094604,0.068795273,0.07262367,0.097312946,0.090889971
+Dataset,WikiSQL,0,0,0,0,0,0,1,0,0,0,1,0,0,0,"Computer Code > SQL-to-Text >  
+",WikiSQL,0,0,0,0,0,0,0,0,0,13,14,23,21,30,74,115,18,0,0,0,0,0,0,0,0,0,0.187806992,0.081890501,0.110401766,0.082537437,0.121403424,0.206698137,0.13988736,0.013520822
+Dataset,WikiText-103,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Language Modelling >  
+",WikiText-103,0,0,0,0,0,0,0,0,0,1,11,23,24,27,48,158,270,0,0,0,0,0,0,0,0,0,0.014446692,0.064342536,0.110401766,0.094328499,0.109263081,0.134074467,0.192193069,0.202812331
+Dataset,WikiText-2,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Natural Language Processing > Language Modelling >  
+",WikiText-2,0,0,0,0,0,0,0,0,0,4,37,28,20,21,28,110,332,0,0,0,0,0,0,0,0,0,0.057786767,0.216424895,0.13440215,0.078607082,0.084982397,0.078210106,0.133805301,0.249384051
+Dataset,Winograd Schema Challenge,1,0,0,0,0,0,0,0,0,0,1,1,0,0,"Reasoning > Common Sense Reasoning >  
+",Winograd Schema Challenge,0,0,0,0,1,0,0,2,5,6,16,29,52,60,101,357,981,0,0,0,0,0.122850123,0,0,0.08760403,0.141043724,0.08668015,0.093589144,0.139202227,0.204378414,0.242806847,0.282115025,0.434259023,0.736884803
+Dataset,Wizard-of-Oz,0,0,0,0,1,0,1,1,0,0,0,0,0,0,"Natural Language Processing > Dialogue > Dialogue State Tracking 
+",Wizard-of-Oz,0,1,1,0,1,0,0,0,2,4,9,40,75,57,106,208,208,0,0.264550265,0.302114804,0,0.122850123,0,0,0,0.056417489,0.057786767,0.052643893,0.192003072,0.294776559,0.230666505,0.296081115,0.25301366,0.156240611
+Dataset,WMT,0,0,0,0,0,0,1,0,0,0,1,0,0,0,"Natural Language Processing > Machine Translation >  
+",WMT,1,1,2,5,4,6,9,25,37,121,136,174,223,375,835,1121,266,0.649350649,0.264550265,0.604229607,0.878734622,0.491400491,1.001669449,0.758213985,1.095050372,1.043723554,1.748049697,0.795507721,0.835213363,0.87646897,1.517542795,2.332337086,1.36359766,0.199807704
+Dataset,WN18,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Graphs > Link Prediction >  
+",WN18,0,0,0,0,0,0,1,2,5,14,37,60,60,56,64,110,185,0,0,0,0,0,0,0.084245998,0.08760403,0.141043724,0.202253684,0.216424895,0.288004608,0.235821247,0.226619724,0.178765956,0.133805301,0.138964005
+Dataset,WOS,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Natural Language Processing > Text Classification > Document Classification 
+",WOS,0,0,0,0,1,0,2,2,0,2,9,10,18,22,36,88,124,0,0,0,0,0.122850123,0,0.168491997,0.08760403,0,0.028893383,0.052643893,0.048000768,0.070746374,0.089029177,0.10055585,0.107044241,0.093143441
+Dataset,WSJ,0,0,0,1,0,0,0,0,0,0,0,0,0,0,"Speech > Speech Recognition >  
+",WSJ,4,2,2,7,2,3,1,15,19,29,67,85,66,59,92,225,217,2.597402597,0.529100529,0.604229607,1.230228471,0.245700246,0.500834725,0.084245998,0.657030223,0.53596615,0.41895406,0.391904539,0.408006528,0.259403372,0.238760066,0.256976062,0.273692661,0.163001022
+Dataset,XNLI,0,0,0,0,0,0,1,0,0,0,1,0,0,0,"Natural Language Processing > Natural Language Inference > Cross-Lingual Natural Language Inference 
+",XNLI,0,0,0,0,0,0,0,0,0,0,3,13,28,50,78,221,308,0,0,0,0,0,0,0,0,0,0,0.017547964,0.062400998,0.110049915,0.202339039,0.217871009,0.268827014,0.231356289
+Dataset,Yahoo! Answers,0,0,0,0,0,0,1,1,0,0,0,1,0,0,"Natural Language Processing > Text Classification >  
+",Yahoo! Answers,0,2,1,7,3,2,1,8,8,12,19,12,23,23,39,89,104,0,0.529100529,0.302114804,1.230228471,0.368550369,0.333889816,0.084245998,0.350416119,0.225669958,0.1733603,0.111137108,0.057600922,0.090398145,0.093075958,0.108935505,0.108260653,0.078120305
+Dataset,YCB-Video,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Pose Estimation > 6D Pose Estimation 
+",YCB-Video,0,0,0,0,0,0,0,0,0,0,0,2,1,7,16,18,31,0,0,0,0,0,0,0,0,0,0,0,0.009600154,0.003930354,0.028327466,0.044691489,0.021895413,0.02328586
+Dataset,Yelp,0,0,0,0,0,0,1,0,1,0,0,0,0,0,"Natural Language Processing > Sentiment Analysis >  
+",Yelp,0,0,0,1,2,1,7,18,31,51,136,112,164,163,273,571,803,0,0,0,0.175746924,0.245700246,0.166944908,0.589721988,0.788436268,0.874471086,0.736781277,0.795507721,0.537608602,0.644578076,0.659625268,0.762548532,0.694571154,0.603178895
+Dataset,YouTube Faces,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Computer Vision > Face Verification >  
+Computer Vision > Facial Recognition and Modelling > Face Verification 
+",YouTube Faces,0,0,0,0,0,0,3,0,2,3,5,2,6,1,2,3,15,0,0,0,0,0,0,0.252737995,0,0.056417489,0.043340075,0.029246607,0.009600154,0.023582125,0.004046781,0.005586436,0.003649235,0.011267352
+Dataset,AEROBCOMP,0,1,1,0,1,1,0,1,0,1,1,0,1,0,Computer Vision > Autonomous Vehicles,AEROBCOMP,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0,0,0
+Dataset,DARPAGC,1,1,1,0,1,1,0,1,0,1,0,0,0,0,Computer Vision > Autonomous Vehicles,DARPAGC,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0,0,0
+Dataset,DARPAUC,1,1,1,0,1,1,0,1,0,1,0,0,1,0,Computer Vision > Autonomous Vehicles,DARPAUC,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0,0,0
+Dataset,DARPARESAVE,1,1,1,0,1,1,0,1,0,1,0,0,1,0,Computer Vision,DARPARESAVE,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0,0,0
+Dataset,RLCOMP,1,1,0,0,0,1,0,0,0,1,1,0,0,0,Methodology > Multi-agent Reinforcement Learning,RLCOMP,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0,0,0
+Dataset,PLANNINGCOMP,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Methodology > Planning,PLANNINGCOMP,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0,0,0
+Dataset,UCI-KEEL,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Methodology > Machine Learning,UCI-KEEL,0,0,0,0,0,0,0,0,0,0,2,1,0,2,1,1,5,0,0,0,0,0,0,0,0,0,0,0.011698643,0.004800077,0,0.008093562,0.002793218,0.001216412,0.003755784
+Dataset,GVGAI,1,1,1,0,1,1,0,0,0,1,0,0,0,0,Playing Games > Video Games,GVGAI,0,0,0,0,0,0,0,0,0,2,6,6,4,8,3,4,6,0,0,0,0,0,0,0,0,0,0.028893383,0.035095929,0.028800461,0.015721416,0.032374246,0.008379654,0.004865647,0.004506941
+Dataset,IMAGECLEF,0,0,1,0,1,0,1,0,0,0,0,0,0,0,Computer Vision > Image Retrieval,IMAGECLEF,0,0,0,1,3,0,25,4,2,3,12,14,33,17,19,47,83,0,0,0,0.175746924,0.368550369,0,2.106149958,0.17520806,0.056417489,0.043340075,0.070191858,0.067201075,0.129701686,0.068795273,0.053071143,0.057171356,0.062346013
+Dataset,ANGRY-BIRDS,1,1,1,0,1,1,0,0,0,1,0,0,0,0,Playing Games > Video Games,ANGRY-BIRDS,0,0,0,0,1,0,0,0,0,2,5,7,3,11,2,9,10,0,0,0,0,0.122850123,0,0,0,0,0.028893383,0.029246607,0.033600538,0.011791062,0.044514589,0.005586436,0.010947706,0.007511568
+Dataset,PATHFINDMAZES,0,0,0,0,0,1,0,0,0,1,0,0,0,0,Playing Games > Video Games,PATHFINDMAZES,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0,0,0
+Dataset,Robocup,0,1,1,1,1,1,0,1,0,1,0,0,1,0,Computer Vision > Autonomous Vehicles,Robocup,1,2,7,5,7,3,1,3,6,9,24,22,26,30,29,46,81,0.649350649,0.529100529,2.114803625,0.878734622,0.85995086,0.500834725,0.084245998,0.131406045,0.169252468,0.130020225,0.140383715,0.10560169,0.102189207,0.121403424,0.081003324,0.055954944,0.060843699
+Dataset,Loebner Prize,0,0,0,0,0,0,1,1,0,0,0,0,1,0,Methodology,Loebner Prize,0,0,0,0,0,0,0,0,1,0,6,2,4,6,7,10,8,0,0,0,0,0,0,0,0,0.028208745,0,0.035095929,0.009600154,0.015721416,0.024280685,0.019552526,0.012164118,0.006009254
+Dataset,Turing Test,0,0,0,0,0,0,1,1,0,0,0,0,1,0,Methodology,Turing Test,0,0,0,4,1,1,1,10,37,45,96,104,107,103,118,254,328,0,0,0,0.702987698,0.122850123,0.166944908,0.084245998,0.438020149,1.043723554,0.650101127,0.561534862,0.499207987,0.420547891,0.416818421,0.329599732,0.308968604,0.246379424
+Dataset,BotPrize,0,0,0,0,0,1,0,1,0,1,0,0,1,0,Computer Code > Chatbots,BotPrize,0,0,0,1,0,0,0,1,0,0,2,1,0,1,0,1,2,0,0,0,0.175746924,0,0,0,0.043802015,0,0,0.011698643,0.004800077,0,0.004046781,0,0.001216412,0.001502314
+Dataset,Robo chat challenge,0,0,0,0,0,0,1,1,0,0,0,0,1,0,Computer Code > Chatbots,Robo chat challenge,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0,0,0
+Dataset,Trading Agents Competition,0,0,0,0,0,1,0,1,0,0,0,0,1,0,Computer Code > Chatbots,Trading Agents Competition,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0,0,0
+Dataset,UCI,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Methodology > Machine Learning,UCI,43,69,46,80,158,107,178,235,385,492,870,1021,1242,857,952,1978,3462,27.92207792,18.25396825,13.89728097,14.05975395,19.41031941,17.86310518,14.9957877,10.2934735,10.86036671,7.10777232,5.088909686,4.900878414,4.881499823,3.468091134,2.659143599,2.406062597,2.600504777
+Dataset,OpenML,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Methodology > Machine Learning,OpenML,0,0,0,0,0,0,0,3,2,12,49,63,88,65,82,197,325,0,0,0,0,0,0,0,0.131406045,0.056417489,0.1733603,0.286616752,0.302404838,0.345871163,0.263040751,0.229043881,0.23963313,0.244125954
+Dataset,DCASE,0,0,0,1,1,0,0,0,0,0,0,0,0,0,Audio,DCASE,0,0,0,1,0,0,0,1,1,7,27,36,24,37,71,124,151,0,0,0,0.175746924,0,0,0,0.043802015,0.028208745,0.101126842,0.15793168,0.172802765,0.094328499,0.149730889,0.198318483,0.150835067,0.113424674
+Dataset,MediaEval,0,0,0,1,1,0,0,0,0,0,0,0,0,0,Audio,MediaEval,0,0,0,0,0,0,0,2,1,0,5,10,11,14,26,36,46,0,0,0,0,0,0,0,0.08760403,0.028208745,0,0.029246607,0.048000768,0.043233895,0.056654931,0.07262367,0.043790826,0.034553212
+Dataset,RecSys,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Miscellaneous > Recommendation Systems,RecSys,0,0,4,11,15,1,18,127,36,57,128,132,192,163,218,499,656,0,0,1.208459215,1.933216169,1.842751843,0.166944908,1.51642797,5.562855891,1.01551481,0.823461427,0.748713149,0.633610138,0.754627992,0.659625268,0.608921539,0.606989502,0.492758849
+Dataset,MIREX,0,0,0,1,1,0,1,0,0,0,0,0,0,0,Audio,MIREX,1,0,0,2,2,0,2,1,3,6,9,10,3,4,9,15,27,0.649350649,0,0,0.351493849,0.245700246,0,0.168491997,0.043802015,0.084626234,0.08668015,0.052643893,0.048000768,0.011791062,0.016187123,0.025138963,0.018246177,0.020281233
+Dataset,MMLU,0,0,0,0,1,0,1,0,0,0,1,1,0,0,Natural Language Processing > Multi-task Language Understanding,MMLU,0,0,0,0,0,0,0,0,0,0,0,0,0,2,19,416,2216,0,0,0,0,0,0,0,0,0,0,0,0,0,0.008093562,0.053071143,0.506027321,1.664563428
+Dataset,MMLU-PRO,0,0,0,0,1,0,1,0,0,0,1,1,0,0,Natural Language Processing > Multi-task Language Understanding,MMLU-PRO,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.001216412,0.097650382
+Dataset,IFEval,0,0,0,0,1,1,1,0,0,0,1,1,0,0,Natural Language Processing > Multi-task Language Understanding,IFEval,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,147,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.110420047
+Dataset,BIG-bench,0,0,0,0,1,0,1,0,0,0,1,1,0,0,Natural Language Processing > Multi-task Language Understanding,BIG-bench,0,0,0,0,0,0,0,0,0,0,1,0,0,7,54,443,1052,0,0,0,0,0,0,0,0,0,0,0.005849321,0,0,0.028327466,0.150833776,0.53887044,0.790216934
+Dataset,LAMBADA,0,0,0,0,1,0,1,0,0,0,1,1,0,0,Natural Language Processing > Multi-task Language Understanding,LAMBADA,0,0,0,0,1,0,0,0,0,2,10,4,11,17,37,160,354,0,0,0,0,0.122850123,0,0,0,0,0.028893383,0.058493215,0.019200307,0.043233895,0.068795273,0.103349068,0.194625893,0.265909501
+Dataset,ARC,0,0,0,0,1,0,1,0,0,0,1,1,0,0,Reasoning > Common Sense Reasoning,ARC,14,12,13,18,29,20,30,41,55,103,236,290,377,446,626,1584,3386,9.090909091,3.174603175,3.927492447,3.16344464,3.562653563,3.338898164,2.527379949,1.795882611,1.551480959,1.488009246,1.380439869,1.392022272,1.481743505,1.804864231,1.74855451,1.926796336,2.543416862
+Dataset,OpenBookQA,0,0,0,0,1,0,1,0,0,0,1,1,0,0,Natural Language Processing > Multi-task Language Understanding,OpenBookQA,0,0,0,0,0,0,0,0,0,0,1,6,16,11,33,164,422,0,0,0,0,0,0,0,0,0,0,0.005849321,0.028800461,0.062885666,0.044514589,0.092176196,0.19949154,0.316988162
+Dataset,TruthfulQA,0,0,0,0,1,0,1,0,0,0,1,1,0,0,Natural Language Processing > Multi-task Language Understanding,TruthfulQA,0,0,0,0,0,0,0,0,0,0,0,0,0,8,20,242,878,0,0,0,0,0,0,0,0,0,0,0,0,0,0.032374246,0.055864361,0.294371662,0.659515654
+Dataset,HellaSwag,0,0,0,0,1,0,1,0,0,0,1,1,0,0,Natural Language Processing > Multi-task Language Understanding,HellaSwag,0,0,0,0,0,0,0,0,0,0,0,5,13,23,55,261,1137,0,0,0,0,0,0,0,0,0,0,0,0.024000384,0.051094604,0.093075958,0.153626994,0.317483487,0.854065261
+Dataset,MuSR,0,0,0,0,1,0,1,0,0,0,1,1,0,0,Reasoning > Common Sense Reasoning,MuSR,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,3,25,0,0,0,0,0,0,0,0,0,0,0,0,0.003930354,0,0,0.003649235,0.01877892
+Dataset,CommonsenseQA,0,0,0,0,1,0,1,0,0,0,1,1,0,0,Reasoning > Common Sense Reasoning,CommonsenseQA,0,0,0,0,0,0,1,0,0,0,1,8,36,47,95,286,483,0,0,0,0,0,0,0.084245998,0,0,0,0.005849321,0.038400614,0.141492748,0.190198697,0.265355716,0.347893783,0.362808725
+Dataset,GPQA,0,0,0,0,1,0,1,0,0,0,1,1,0,0,Natural Language Processing > Multi-task Language Understanding,GPQA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,204,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.002432824,0.153235983
+Dataset,GAIA,0,0,1,0,1,0,1,0,0,0,1,1,0,0,Natural Language Processing > Multi-task Language Understanding,GAIA,1,1,0,0,1,1,0,2,0,2,16,29,38,36,67,183,467,0.649350649,0.264550265,0,0,0.122850123,0.166944908,0,0.08760403,0,0.028893383,0.093589144,0.139202227,0.149353457,0.145684108,0.18714561,0.222603365,0.350790217
+Dataset,ARC-AGI,0,0,0,0,1,0,1,0,0,0,1,1,0,0,Natural Language Processing > Multi-task Language Understanding,ARC-AGI,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.010516195
+Dataset,MATH mathematical reasoning,0,0,0,0,1,0,1,0,0,0,1,1,0,0,Natural Language Processing > Multi-task Language Understanding,MATH mathematical reasoning,3,14,17,27,26,42,66,90,109,176,338,390,529,473,637,1986,4525,1.948051948,3.703703704,5.135951662,4.74516696,3.194103194,7.011686144,5.560235889,3.94218134,3.074753173,2.542617741,1.97707066,1.872029952,2.079157332,1.914127312,1.779279908,2.415793891,3.398984436
+Dataset,MMMU,0,0,1,0,1,0,1,0,0,0,1,1,0,0,Computer Vision > Visual Question Answering,MMMU,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,8,393,0,0,0,0,0,0,0,0,0,0,0,0,0,0.004046781,0.002793218,0.009731295,0.295204615
+Dataset,MMBench,0,0,1,0,1,0,1,0,0,0,1,1,0,0,Computer Vision > Visual Question Answering,MMBench,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,450,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.055954944,0.338020552
+Dataset,AI2D,0,0,1,0,1,0,1,0,0,0,1,1,0,0,Computer Vision > Visual Question Answering,AI2D,0,0,0,0,0,0,0,0,0,0,1,0,4,5,3,19,126,0,0,0,0,0,0,0,0,0,0,0.005849321,0,0.015721416,0.020233904,0.008379654,0.023111825,0.094645754
+Dataset,OCRBench ,0,0,1,0,1,0,1,0,0,0,0,0,0,0,Computer Vision,OCRBench ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,63,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.001216412,0.047322877
+Dataset,MMStar,0,0,1,0,1,0,1,0,0,0,1,1,0,0,Computer Vision > Visual Question Answering,MMStar,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,73,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.054834445
+Dataset,ScienceQA,0,0,1,0,1,0,1,0,0,0,1,1,0,0,Computer Vision > Visual Question Answering,ScienceQA,0,0,0,0,0,0,0,0,0,1,3,3,6,3,5,111,418,0,0,0,0,0,0,0,0,0,0.014446692,0.017547964,0.01440023,0.023582125,0.012140342,0.01396609,0.135021713,0.313983535
+Dataset,HallusionBench,0,0,1,0,1,0,1,0,0,0,1,1,0,0,Computer Vision > Visual Question Answering,HallusionBench,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,91,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.006082059,0.068355267
+Dataset,MMVet,0,0,1,0,1,0,1,0,0,0,1,1,0,0,Computer Vision > Visual Question Answering,MMVet,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,283,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.029193884,0.212577369
+Dataset,VL-RewardBench,0,0,1,0,1,0,1,0,0,0,1,1,0,0,Computer Vision > Visual Question Answering,VL-RewardBench,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.001502314
+Dataset,MathVista,0,0,1,0,1,0,1,0,0,0,1,1,0,0,Computer Vision > Visual Question Answering,MathVista,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.01338053,0.150231356
